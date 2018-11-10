@@ -11,5 +11,15 @@
       <user-name>root</user-name>
       <introspection-schemas>*:dateTracker</introspection-schemas>
     </data-source>
+    <data-source name="test_dateTracker@localhost" uuid="85100fd4-6158-47fc-9395-9a95e56ccee1">
+      <database-info product="MySQL" version="5.7.24-0ubuntu0.16.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" family="MYSQL" exact-version="5.7.24">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-schemas>*:test_dateTracker</introspection-schemas>
+    </data-source>
   </component>
 </project>
