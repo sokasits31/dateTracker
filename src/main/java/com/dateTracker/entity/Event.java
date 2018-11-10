@@ -4,16 +4,17 @@ import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.time.LocalDate;
 import java.util.HashSet;
 import java.util.Set;
 
 /**
  * The type User.
  */
-@Entity(name = "User")
-@Table(name = "user")
+@Entity(name = "Event")
+@Table(name = "event")
 @Data
-public class User {
+public class Event {
 
     /**
      * Instance variables
@@ -23,11 +24,18 @@ public class User {
     @GenericGenerator(name = "native", strategy = "native")
     private int id;
 
-    @Column(name = "user_name")
-    private String userName;
+    @Column(name = "event_name")
+    private String eventName;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
-    private Set<Event> events = new HashSet<>();
+    @Column(name = "event_type")
+    private String eventType;
+
+    @Column(name = "event_date")
+    private LocalDate eventDate;
+
+    @ManyToOne
+    @JoinColumn(name = user_id)
+    private User user;
 
 
 }
