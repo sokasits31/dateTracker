@@ -1,12 +1,16 @@
 package com.dateTracker.Service;
 
+import com.dateTracker.entity.Event;
+import com.dateTracker.entity.User;
 import com.dateTracker.persistence.GenericDao;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.List;
 
-@Path("/hello")
+@Path("/event")
 public class EventService{
     @GET
     @Path("{days}")
@@ -14,27 +18,46 @@ public class EventService{
             @PathParam("days") long days) {
 
         LocalDate currentDate = LocalDate.now();
-        LocalDate eventDate = currentDate.minusDays(days);
-        GenericDao dao = new GenericDao();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        String eventDate = currentDate.minusDays(days).format(formatter);
 
-        dao.getByPropertyEqual()
+        GenericDao dao = new GenericDao(Event.class);
+
+        List<Event> eventList = dao.getByPropertyEqual("Event_Date",eventDate);
 
         return Response.status(200)
-                .entity("getDate is called, year/month/day : " + date)
+                .entity("List of requested events : " + eventList)
                 .build();
     }
 
     @GET
     @Path("{type}")
-    public Response getDaysEvent(
+    public Response getTypeEvent(
             @PathParam("type") String type) {
 
-        String date = year + "/" + month + "/" + day;
+        GenericDao dao = new GenericDao(Event.class);
+
+        List<Event> eventList = dao.getByPropertyEqual("Event_Type",type);
 
         return Response.status(200)
-                .entity("getDate is called, year/month/day : " + date)
+                .entity("List of requested events : " + eventList)
                 .build();
     }
+
+    @GET
+    @Path("{all}")
+    public Response getAllEvents(
+            @PathParam("all") int id) {
+
+        GenericDao dao = new GenericDao(User.class);
+        Event allEvents = (Event)dao.getById(id);
+
+        return Response.status(200)
+                .entity("List of all events : " + allEvents)
+                .build();
+    }
+
+
 
     @POST
     @Path("/add")
