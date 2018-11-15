@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
+<<<<<<< HEAD
     <data-source name="datetracker" uuid="556ad15a-5bd5-47bc-9746-cf64925dcfea">
       <database-info product="MySQL" version="5.7.23-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" family="MYSQL" exact-version="5.7.23">
         <extra-name-characters>#@</extra-name-characters>
@@ -19,6 +20,10 @@
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
+=======
+    <data-source name="dateTracker@localhost" uuid="1b37aab0-736e-49cd-8c3c-f43931557a87">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="MYSQL" exact-version="0.0" />
+>>>>>>> master
       <introspection-schemas>*:@</introspection-schemas>
     </data-source>
   </component>
