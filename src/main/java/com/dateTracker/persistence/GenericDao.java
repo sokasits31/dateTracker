@@ -154,7 +154,6 @@ public class GenericDao<T> {
      */
     private Session getSession() {
         return SessionFactoryProvider.getSessionFactory().openSession();
-
     }
 
 
