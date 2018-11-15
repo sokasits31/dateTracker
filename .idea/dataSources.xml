@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="dateTracker@localhost" uuid="1b37aab0-736e-49cd-8c3c-f43931557a87">
+    <data-source source="LOCAL" name="datetracker" uuid="556ad15a-5bd5-47bc-9746-cf64925dcfea">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/dateTracker</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/datetracker</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
@@ -15,11 +15,11 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="test_dateTracker@localhost" uuid="85100fd4-6158-47fc-9395-9a95e56ccee1">
+    <data-source source="LOCAL" name="datetracker_test" uuid="14f74a9b-58fe-4a2c-a1ae-a402b53d939e">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/test_dateTracker</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/datetracker_test</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
