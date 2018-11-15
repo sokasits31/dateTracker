@@ -1,5 +1,6 @@
 package com.dateTracker.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
@@ -32,6 +33,7 @@ public class Event {
     @Column(name = "event_date")
     private LocalDate eventDate;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
