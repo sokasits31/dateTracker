@@ -1,4 +1,4 @@
-package com.dateTracker.Service;
+package com.dateTracker.service;
 
 import com.dateTracker.entity.Event;
 import com.dateTracker.entity.User;
@@ -10,16 +10,17 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-@Path("/event")
+@Path("/events")
 public class EventService{
+
     @GET
     @Path("{days}")
     public Response getDaysEvent(
-            @PathParam("days") long days) {
+            @PathParam("days") long days, int id) {
 
         LocalDate currentDate = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
-        String eventDate = currentDate.minusDays(days).format(formatter);
+        String eventDate = currentDate.plusDays(days).format(formatter);
 
         GenericDao dao = new GenericDao(Event.class);
 
@@ -33,7 +34,7 @@ public class EventService{
     @GET
     @Path("{type}")
     public Response getTypeEvent(
-            @PathParam("type") String type) {
+            @PathParam("type") String type, int id) {
 
         GenericDao dao = new GenericDao(Event.class);
 
@@ -45,9 +46,7 @@ public class EventService{
     }
 
     @GET
-    @Path("{all}")
-    public Response getAllEvents(
-            @PathParam("all") int id) {
+    public Response getAllEvents(int id) {
 
         GenericDao dao = new GenericDao(User.class);
         Event allEvents = (Event)dao.getById(id);
@@ -60,7 +59,6 @@ public class EventService{
 
 
     @POST
-    @Path("/add")
     public Response addEvent(
             @FormParam("eventName") String eventName,
             @FormParam("eventType") String eventType,
