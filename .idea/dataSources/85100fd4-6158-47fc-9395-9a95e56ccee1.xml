@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="dateTracker@localhost">
+<dataSource name="test_dateTracker@localhost">
   <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
     <root id="1"/>
-    <schema id="2" parent="1" name="dateTracker">
+    <schema id="2" parent="1" name="test_dateTracker">
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
-    <schema id="3" parent="1" name="doorCreekCafe"/>
-    <schema id="4" parent="1" name="information_schema"/>
-    <schema id="5" parent="1" name="mysql"/>
-    <schema id="6" parent="1" name="performance_schema"/>
-    <schema id="7" parent="1" name="phpmyadmin"/>
-    <schema id="8" parent="1" name="sample"/>
-    <schema id="9" parent="1" name="supportIT"/>
-    <schema id="10" parent="1" name="sys"/>
-    <schema id="11" parent="1" name="test_doorCreekCafe"/>
-    <schema id="12" parent="1" name="test_supportIT"/>
-    <schema id="13" parent="1" name="week9"/>
-    <schema id="14" parent="1" name="test_dateTracker"/>
+    <schema id="3" parent="1" name="dateTracker"/>
+    <schema id="4" parent="1" name="doorCreekCafe"/>
+    <schema id="5" parent="1" name="information_schema"/>
+    <schema id="6" parent="1" name="mysql"/>
+    <schema id="7" parent="1" name="performance_schema"/>
+    <schema id="8" parent="1" name="phpmyadmin"/>
+    <schema id="9" parent="1" name="sample"/>
+    <schema id="10" parent="1" name="supportIT"/>
+    <schema id="11" parent="1" name="sys"/>
+    <schema id="12" parent="1" name="test_doorCreekCafe"/>
+    <schema id="13" parent="1" name="test_supportIT"/>
+    <schema id="14" parent="1" name="week9"/>
     <table id="15" parent="2" name="event"/>
     <table id="16" parent="2" name="user"/>
     <column id="17" parent="15" name="id">
@@ -64,7 +64,7 @@
     </key>
     <foreign-key id="26" parent="15" name="event_user_id_fk">
       <ColNames>user_id</ColNames>
-      <RefSchemaName>dateTracker</RefSchemaName>
+      <RefSchemaName>test_dateTracker</RefSchemaName>
       <RefTableName>user</RefTableName>
       <RefColNames>id</RefColNames>
       <OnUpdate>cascade</OnUpdate>
