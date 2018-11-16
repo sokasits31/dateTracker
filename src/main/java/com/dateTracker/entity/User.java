@@ -1,10 +1,12 @@
 package com.dateTracker.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Data;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -26,6 +28,7 @@ public class User {
     @Column(name = "user_name")
     private String userName;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
     private Set<Event> events = new HashSet<>();
 
@@ -108,7 +111,6 @@ public class User {
         event.setUser(this);
     }
 
-
     /**
      * Remove event.
      *
@@ -120,19 +122,25 @@ public class User {
     }
 
     @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", userName='" + userName + '\'' +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         User user = (User) o;
-
-        if (getId() != user.getId()) return false;
-        if (!getUserName().equals(user.getUserName())) return false;
-        return getEvents().equals(user.getEvents());
+        return id == user.id &&
+                Objects.equals(userName, user.userName);
     }
 
     @Override
     public int hashCode() {
+<<<<<<< HEAD
         int result = getId();
         result = 31 * result + getUserName().hashCode();
         result = 31 * result + getEvents().hashCode();
@@ -145,5 +153,9 @@ public class User {
                 "id=" + id +
                 ", userName='" + userName + '\'' +
                 '}';
+=======
+        return Objects.hash(id, userName);
+>>>>>>> master
     }
 }
+
