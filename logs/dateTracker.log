@@ -2189,3 +2189,39 @@
 "nextUpcomingEventDate": "2019-10-16"
 }
 
+[ERROR] 2018-11-16 11:56:56.995 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:57:04.534 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:57:05.208 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+

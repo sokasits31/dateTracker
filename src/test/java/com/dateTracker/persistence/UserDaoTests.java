@@ -165,14 +165,14 @@ class UserDaoTests {
         List<User> user = genericDao.getByPropertyLike("userName","sok");
         assertEquals(1, user.size());
 
-
+        // Load users event to set
         Set<Event> events = user.get(0).getEvents();
 
         // create local variables for processing loop
-        String JSONresponse = "\n";
-        Period periodLength;
-        Period daysUntil;
-        LocalDate upcomingEvent = null;
+        Period periodLength;               // used to total length or age of event
+        Period daysUntil;                  // used to document how many dates to next event
+        LocalDate upcomingEvent = null;    // used to hold next upcoming date
+        String JSONresponse = "\n";        //  start of JSON Response
 
         for (Event e:events) {
 
@@ -188,7 +188,7 @@ class UserDaoTests {
                 daysUntil = Period.between(LocalDate.now(), e.getEventDate());
             }
 
-            String value = "brad";
+            String value = "birth";   // would be are PARAM in value from screen
 
             if (upcomingEvent.isAfter(LocalDate.now())
                     && e.getEventName().toLowerCase().contains(value.toLowerCase())) {
