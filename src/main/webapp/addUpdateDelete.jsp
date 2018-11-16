@@ -39,6 +39,8 @@
 
 <hr>
 <button type="submit" name="submit" value="add" class="btn btn-primary">Add</button>
+<button type="submit" name="submit" value="update" class="btn btn-primary">Update</button>
+<button type="submit" name="submit" value="delete" class="btn btn-primary">Delete</button>
 <button type="reset" name="reset" value="reset" class="btn btn-primary">Reset</button>
 
 </form>

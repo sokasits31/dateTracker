@@ -18,25 +18,18 @@
 <h4>Links:</h4>
 <br/>
 <h5>
-    <ul>
-        <li><a href="searchAll.jsp">Search All</a></li>
-        <br/>
-        <li><a href="searchEvent.jsp">Search Events</a></li>
-        <br/>
-        <li><a href="searchByName.jsp">Search By Name</a></li>
-        <br/>
-        <li><a href="addEvent.jsp">Add Event</a></li>
-        <br/>
-        <li><a href="deleteEvent.jsp">Delete Event</a></li>
-        <br/>
-        <li><a href="updateEvent.jsp">Update Event</a></li>
-    </ul>
+<ul>
+<li><a href="search.jsp">Search Events</a></li>
+<br/>
+<li><a href="addUpdateDelete.jsp">Add/Update/Delete an Event</a></li>
+</ul>
+
 </h5>
 
 <hr>
 <figure class="figure">
 <img src="images/dates.jpg"  class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-<figcaption class="figure-caption"></figcaption>
+<figcaption class="figure-caption">dates</figcaption>
 </figure>
 </div>
 

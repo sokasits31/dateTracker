@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataSource name="dateTracker@localhost">
+<dataSource name="datetracker_test">
   <database-model serializer="dbm" rdbms="MYSQL" format-version="4.11">
     <root id="1">
       <ServerVersion>5.7.23</ServerVersion>
@@ -14,11 +14,11 @@
       <Collation>latin1_swedish_ci</Collation>
     </schema>
     <schema id="4" parent="1" name="datetracker">
-      <Current>1</Current>
-      <Visible>1</Visible>
       <Collation>latin1_swedish_ci</Collation>
     </schema>
     <schema id="5" parent="1" name="datetracker_test">
+      <Current>1</Current>
+      <Visible>1</Visible>
       <Collation>latin1_swedish_ci</Collation>
     </schema>
     <schema id="6" parent="1" name="indie">
@@ -933,8 +933,8 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="236" parent="4" name="event"/>
-    <table id="237" parent="4" name="user"/>
+    <table id="236" parent="5" name="event"/>
+    <table id="237" parent="5" name="user"/>
     <column id="238" parent="236" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
@@ -986,7 +986,7 @@
     </key>
     <foreign-key id="247" parent="236" name="event_user_id_fk">
       <ColNames>user_id</ColNames>
-      <RefSchemaName>datetracker</RefSchemaName>
+      <RefSchemaName>datetracker_test</RefSchemaName>
       <RefTableName>user</RefTableName>
       <RefColNames>id</RefColNames>
       <OnUpdate>cascade</OnUpdate>
