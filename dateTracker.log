@@ -1,0 +1,9 @@
+[INFO ] 2018-11-15 19:15:34.177 [http-nio-8080-exec-4] DisplayEvent - steveSokasits
+[DEBUG] 2018-11-15 19:15:38.349 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = steveSokasits
+[INFO ] 2018-11-15 19:21:05.640 [http-nio-8080-exec-7] DisplayEvent - danMiller
+[DEBUG] 2018-11-15 19:21:05.640 [http-nio-8080-exec-7] GenericDao - Searching for user with userName = danMiller
+[INFO ] 2018-11-15 19:21:05.691 [http-nio-8080-exec-7] DisplayEvent - [User{id=3, userName='danMiller', events=[]}]
+[INFO ] 2018-11-15 19:21:05.691 [http-nio-8080-exec-7] DisplayEvent - User{id=3, userName='danMiller', events=[]}
+[INFO ] 2018-11-15 19:21:05.691 [http-nio-8080-exec-7] DisplayEvent - 3
+[DEBUG] 2018-11-15 19:21:05.691 [http-nio-8080-exec-7] GenericDao - Searching for user with user = 3
+[INFO ] 2018-11-15 19:21:05.738 [http-nio-8080-exec-7] DisplayEvent - []
