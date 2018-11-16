@@ -2,11 +2,20 @@ package com.dateTracker.persistence;
 
 import com.dateTracker.entity.Event;
 import com.dateTracker.entity.User;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.json.simple.JSONObject;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import javax.ejb.Local;
+import javax.json.Json;
+import java.io.StringWriter;
 import java.time.LocalDate;
+import java.time.Period;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 import static org.junit.Assert.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -15,6 +24,7 @@ import static org.junit.jupiter.api.Assertions.assertNull;
 
 class UserDaoTests {
 
+    private final Logger logger = LogManager.getLogger(this.getClass());
 
     GenericDao genericDao;
 
@@ -152,8 +162,58 @@ class UserDaoTests {
      */
     @Test
     void getByLikeSuccess() {
-        List<User> tests = genericDao.getByPropertyLike("userName","sok");
-        assertEquals(1, tests.size());
+        List<User> user = genericDao.getByPropertyLike("userName","sok");
+        assertEquals(1, user.size());
+
+
+        Set<Event> events = user.get(0).getEvents();
+
+        // create local variables for processing loop
+        String JSONresponse = "\n";
+        Period periodLength;
+        Period daysUntil;
+        LocalDate upcomingEvent = null;
+
+        for (Event e:events) {
+
+            // Determine length of event
+            periodLength = Period.between(e.getEventDate(), LocalDate.now());
+
+            if (e.getEventType().equals("annual")) {
+                // Determine next upcoming event
+                upcomingEvent = e.getEventDate().plusYears(periodLength.getYears() + 1);
+                daysUntil = Period.between(LocalDate.now(), upcomingEvent);
+            } else {
+                upcomingEvent = e.getEventDate();
+                daysUntil = Period.between(LocalDate.now(), e.getEventDate());
+            }
+
+            String value = "brad";
+
+            if (upcomingEvent.isAfter(LocalDate.now())
+                    && e.getEventName().toLowerCase().contains(value.toLowerCase())) {
+
+                JSONresponse += "{\n";
+                JSONresponse += "\"eventName\": \"" + e.getEventName() + "\"\n";
+                JSONresponse += "\"eventType\": \"" + e.getEventType() + "\"\n";
+                JSONresponse += "\"eventDate\": \"" + e.getEventDate() + "\"\n";
+                JSONresponse += "\"timeUntil\": \"" + daysUntil.getMonths() + " Months and "
+                                                    + daysUntil.getDays() + " Days" + "\"\n";
+
+                JSONresponse += "\"eventLenght\": \"" + periodLength.getYears() + " Years, "
+                                                      + periodLength.getMonths() + " Months and "
+                                                      + periodLength.getDays() + " Days" + "\"\n";
+                JSONresponse += "\"nextUpcomingEventDate\": \"" + upcomingEvent + "\"\n";
+
+                JSONresponse += "}\n";
+
+            }
+
+
+
+        }
+
+        logger.debug(JSONresponse);
 
     }
 

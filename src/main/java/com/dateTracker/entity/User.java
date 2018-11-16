@@ -144,7 +144,6 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", userName='" + userName + '\'' +
-                ", events=" + events +
                 '}';
     }
 }

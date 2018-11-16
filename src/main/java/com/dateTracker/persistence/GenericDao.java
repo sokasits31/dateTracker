@@ -9,7 +9,9 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
+import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 /**
  * A generic DAO somewhat inspired by http://rodrigouchoa.wordpress.com
@@ -146,6 +148,7 @@ public class GenericDao<T> {
         session.close();
         return list;
     }
+
 
     /**
      *  Returns an open session for the SessionFactory
