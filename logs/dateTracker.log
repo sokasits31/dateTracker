@@ -1,8 +1,0 @@
-[DEBUG] 2018-11-08 22:49:00.663 [main] GenericDao - Searching for user with userName = sok
-[DEBUG] 2018-11-08 22:49:54.833 [main] GenericDao - Searching for user with emailAddress = steve.sokasits@gmail.com
-[DEBUG] 2018-11-08 22:49:55.107 [main] GenericDao - Searching for user with userName = sok
-[DEBUG] 2018-11-08 22:51:53.207 [main] GenericDao - Searching for user with userName = sok
-[DEBUG] 2018-11-08 22:52:08.430 [main] GenericDao - Searching for user with emailAddress = steve.sokasits@gmail.com
-[DEBUG] 2018-11-08 22:53:04.085 [main] GenericDao - Searching for user with userName = steve.sokasits
-[DEBUG] 2018-11-08 22:53:46.391 [main] GenericDao - Searching for user with userName = steveSokasits
-[DEBUG] 2018-11-08 22:53:46.706 [main] GenericDao - Searching for user with userName = sok

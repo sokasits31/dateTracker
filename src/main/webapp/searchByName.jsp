@@ -12,26 +12,20 @@
 <div class="container">
 <!-- Content here -->
 <hr>
-<h3>Welcome to the Main Date Tracker Page!</h3>
-<br/>
+<h3>Welcome to the Search Page!</h3>
+<hr>
 
-<h4>Links:</h4>
-<br/>
-<h5>
-    <ul>
-        <li><a href="searchAll.jsp">Search All</a></li>
-        <br/>
-        <li><a href="searchEvent.jsp">Search Events</a></li>
-        <br/>
-        <li><a href="searchByName.jsp">Search By Name</a></li>
-        <br/>
-        <li><a href="addEvent.jsp">Add Event</a></li>
-        <br/>
-        <li><a href="deleteEvent.jsp">Delete Event</a></li>
-        <br/>
-        <li><a href="updateEvent.jsp">Update Event</a></li>
-    </ul>
-</h5>
+<form action="/dateTracker/services/events/searchbyName" method="GET">
+<div class="form-group">
+    <label for="userName">User name: </label>
+    <input type="text" class="form-control" id="userName" name="userName" aria-describedby="searchUserName" required>
+
+</div>
+
+<hr>
+    <button type="submit" name="searchEvent" value="searchEvent" class="btn btn-primary">Search Event</button>
+    <button type="reset" name="reset" value="reset" class="btn btn-primary">Reset</button>
+</form>
 
 <hr>
 <figure class="figure">
