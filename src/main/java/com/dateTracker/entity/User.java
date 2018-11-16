@@ -140,22 +140,7 @@ public class User {
 
     @Override
     public int hashCode() {
-<<<<<<< HEAD
-        int result = getId();
-        result = 31 * result + getUserName().hashCode();
-        result = 31 * result + getEvents().hashCode();
-        return result;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", userName='" + userName + '\'' +
-                '}';
-=======
         return Objects.hash(id, userName);
->>>>>>> master
     }
 }
 
