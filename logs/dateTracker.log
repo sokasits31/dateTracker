@@ -1,0 +1,2227 @@
+[DEBUG] 2018-11-08 22:49:00.663 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-08 22:49:54.833 [main] GenericDao - Searching for user with emailAddress = steve.sokasits@gmail.com
+[DEBUG] 2018-11-08 22:49:55.107 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-08 22:51:53.207 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-08 22:52:08.430 [main] GenericDao - Searching for user with emailAddress = steve.sokasits@gmail.com
+[DEBUG] 2018-11-08 22:53:04.085 [main] GenericDao - Searching for user with userName = steve.sokasits
+[DEBUG] 2018-11-08 22:53:46.391 [main] GenericDao - Searching for user with userName = steveSokasits
+[DEBUG] 2018-11-08 22:53:46.706 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:03:10.174 [main] GenericDao - Searching for user with userName = steveSokasits
+[DEBUG] 2018-11-15 22:03:10.679 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:05:38.912 [main] GenericDao - Searching for user with userName = steveSokasits
+[DEBUG] 2018-11-15 22:05:39.468 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:07:01.557 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:10:02.771 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:10:25.943 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:13:04.342 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:13:46.122 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:24:04.635 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:24:05.347 [main] UserDaoTests - #########################33
+[DEBUG] 2018-11-15 22:25:02.033 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:28:14.346 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:28:15.432 [main] UserDaoTests - +++++ User Events:
+[DEBUG] 2018-11-15 22:28:43.415 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:30:06.504 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:30:07.460 [main] UserDaoTests - [Ljava.lang.Object;@37b72ea
+[DEBUG] 2018-11-15 22:30:07.461 [main] UserDaoTests - +++++ User Events:
+[DEBUG] 2018-11-15 22:34:26.940 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:37:27.457 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:39:05.184 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:41:15.771 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:42:56.846 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:42:57.520 [main] UserDaoTests - ------User{id=2, userName='steveSokasits'}
+[DEBUG] 2018-11-15 22:44:39.153 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:44:39.786 [main] UserDaoTests - ------[Event{id=4, eventName='Heather's Birthday', eventType='Birthday', eventDate=1977-04-22, user=User{id=2, userName='steveSokasits'}}, Event{id=1, eventName='Steve's Birthday', eventType='Birthday', eventDate=1972-09-06, user=User{id=2, userName='steveSokasits'}}, Event{id=3, eventName='Bradley's Birthday', eventType='Birthday', eventDate=2010-10-16, user=User{id=2, userName='steveSokasits'}}, Event{id=2, eventName='Lea's Birthday', eventType='Birthday', eventDate=2008-10-21, user=User{id=2, userName='steveSokasits'}}]
+[DEBUG] 2018-11-15 22:48:44.254 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-15 22:48:44.894 [main] UserDaoTests - Lea's BirthdayBirthday2008-10-21
+[DEBUG] 2018-11-15 22:48:44.907 [main] UserDaoTests - Heather's BirthdayBirthday1977-04-22
+[DEBUG] 2018-11-15 22:48:44.907 [main] UserDaoTests - Bradley's BirthdayBirthday2010-10-16
+[DEBUG] 2018-11-15 22:48:44.907 [main] UserDaoTests - Steve's BirthdayBirthday1972-09-06
+[DEBUG] 2018-11-15 22:48:44.908 [main] UserDaoTests - ------[Event{id=2, eventName='Lea's Birthday', eventType='Birthday', eventDate=2008-10-21, user=User{id=2, userName='steveSokasits'}}, Event{id=4, eventName='Heather's Birthday', eventType='Birthday', eventDate=1977-04-22, user=User{id=2, userName='steveSokasits'}}, Event{id=3, eventName='Bradley's Birthday', eventType='Birthday', eventDate=2010-10-16, user=User{id=2, userName='steveSokasits'}}, Event{id=1, eventName='Steve's Birthday', eventType='Birthday', eventDate=1972-09-06, user=User{id=2, userName='steveSokasits'}}]
+[DEBUG] 2018-11-15 23:23:28.471 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 08:39:14.471 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 08:39:15.587 [main] UserDaoTests - ------"Happy"
+[DEBUG] 2018-11-16 08:44:47.537 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 08:44:48.181 [main] UserDaoTests - ------{"eventName": "Birthday""eventName": "Birthday""eventName": "Birthday""eventName": "Birthday"
+[DEBUG] 2018-11-16 08:47:14.229 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 08:47:14.950 [main] UserDaoTests - ------{"eventName": "Birthday"
+"eventName": "Birthday"
+"eventName": "Birthday"
+"eventName": "Birthday"
+
+[DEBUG] 2018-11-16 08:49:02.308 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 08:49:03.331 [main] UserDaoTests - ------{
+"eventName": "Steve's Birthday"
+"eventType": "Birthday"
+"eventName": "1972-09-06"
+"eventName": "Lea's Birthday"
+"eventType": "Birthday"
+"eventName": "2008-10-21"
+"eventName": "Bradley's Birthday"
+"eventType": "Birthday"
+"eventName": "2010-10-16"
+"eventName": "Heather's Birthday"
+"eventType": "Birthday"
+"eventName": "1977-04-22"
+
+[DEBUG] 2018-11-16 08:51:05.800 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 08:51:06.647 [main] UserDaoTests - ------
+{
+"eventName": "Steve's Birthday"
+"eventType": "Birthday"
+"eventName": "1972-09-06"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "Birthday"
+"eventName": "2008-10-21"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "Birthday"
+"eventName": "2010-10-16"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "Birthday"
+"eventName": "1977-04-22"
+}
+
+[DEBUG] 2018-11-16 08:56:33.845 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 08:56:34.466 [main] UserDaoTests - ------
+
+[DEBUG] 2018-11-16 08:58:42.273 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 08:58:43.767 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 08:58:43.775 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 08:58:43.775 [main] UserDaoTests - ------
+
+[DEBUG] 2018-11-16 09:50:46.273 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 09:50:47.983 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 09:50:47.984 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 09:50:47.984 [main] UserDaoTests - age: 41
+[DEBUG] 2018-11-16 09:50:47.984 [main] UserDaoTests - age: 10
+[DEBUG] 2018-11-16 09:50:47.985 [main] UserDaoTests - age: 46
+[DEBUG] 2018-11-16 09:50:47.989 [main] UserDaoTests - age: 8
+[DEBUG] 2018-11-16 09:52:44.694 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 09:52:46.391 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 09:52:46.399 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 09:52:46.401 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 09:52:46.402 [main] UserDaoTests - age: 46-2-10
+[DEBUG] 2018-11-16 09:52:46.402 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 09:52:46.403 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:13:17.666 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:13:18.475 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:13:18.476 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:13:18.483 [main] UserDaoTests - upcoming birthday: 2018-09-06
+[DEBUG] 2018-11-16 10:13:18.483 [main] UserDaoTests - age: 46-2-10
+[DEBUG] 2018-11-16 10:13:18.486 [main] UserDaoTests - upcoming birthday: 2018-10-21
+[DEBUG] 2018-11-16 10:13:18.486 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:13:18.486 [main] UserDaoTests - upcoming birthday: 2018-10-16
+[DEBUG] 2018-11-16 10:13:18.486 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:13:18.488 [main] UserDaoTests - upcoming birthday: 2018-04-22
+[DEBUG] 2018-11-16 10:13:18.489 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:14:59.812 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:15:00.625 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:15:00.640 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:15:00.641 [main] UserDaoTests - upcoming birthday: 2018-06-09
+[DEBUG] 2018-11-16 10:15:00.641 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:15:00.641 [main] UserDaoTests - upcoming birthday: 2018-10-21
+[DEBUG] 2018-11-16 10:15:00.641 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:15:00.641 [main] UserDaoTests - upcoming birthday: 2018-10-16
+[DEBUG] 2018-11-16 10:15:00.641 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:15:00.649 [main] UserDaoTests - upcoming birthday: 2018-04-22
+[DEBUG] 2018-11-16 10:15:00.649 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:16:18.919 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:16:20.278 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:16:20.282 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:16:20.283 [main] UserDaoTests - upcoming birthday: 2019-04-22
+[DEBUG] 2018-11-16 10:16:20.283 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:16:20.283 [main] UserDaoTests - upcoming birthday: 2019-06-09
+[DEBUG] 2018-11-16 10:16:20.283 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:16:20.283 [main] UserDaoTests - upcoming birthday: 2019-10-21
+[DEBUG] 2018-11-16 10:16:20.283 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:16:20.285 [main] UserDaoTests - upcoming birthday: 2019-10-16
+[DEBUG] 2018-11-16 10:16:20.285 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:32:18.546 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:32:19.649 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:32:19.649 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:32:19.650 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 10:32:19.650 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:32:19.650 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 10:32:19.650 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:32:19.651 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 10:32:19.651 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:32:19.651 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 10:32:19.651 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:36:05.674 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:36:06.498 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:36:06.499 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:36:06.500 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 10:36:06.500 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:36:06.500 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 10:36:06.500 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:36:06.500 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 10:36:06.500 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:36:06.500 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 10:36:06.500 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:36:50.509 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:36:51.428 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:36:51.452 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:36:51.453 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 10:36:51.453 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:36:51.454 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 10:36:51.454 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:36:51.454 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 10:36:51.454 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:36:51.454 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 10:36:51.455 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:37:35.891 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:37:36.630 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:37:36.631 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:37:36.631 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 10:37:36.632 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:37:36.632 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "Birthday"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+}
+
+[DEBUG] 2018-11-16 10:37:36.632 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 10:37:36.632 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:37:36.632 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "Birthday"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "Birthday"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+}
+
+[DEBUG] 2018-11-16 10:37:36.632 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 10:37:36.632 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:37:36.632 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "Birthday"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "Birthday"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "Birthday"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+}
+
+[DEBUG] 2018-11-16 10:37:36.643 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 10:37:36.643 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:37:36.643 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "Birthday"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "Birthday"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "Birthday"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "Birthday"
+"eventDate": "2010-10-16"
+"eventLenght": "-8-Years -1-Months 0-Days"
+}
+
+[DEBUG] 2018-11-16 10:42:57.151 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:42:57.957 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:42:57.969 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:42:57.970 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 10:42:57.977 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:42:57.977 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "Birthday"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:42:57.977 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 10:42:57.977 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:42:57.978 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "Birthday"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "Birthday"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:42:57.991 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 10:42:57.993 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:42:57.993 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "Birthday"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "Birthday"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "Birthday"
+"eventDate": "2010-10-16"
+"eventLenght": "-8-Years -1-Months 0-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:42:57.993 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 10:42:57.993 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:42:57.993 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "Birthday"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "Birthday"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "Birthday"
+"eventDate": "2010-10-16"
+"eventLenght": "-8-Years -1-Months 0-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "Birthday"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:44:29.666 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:44:31.240 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:44:31.241 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:44:31.242 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 10:44:31.242 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:44:31.242 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:44:31.242 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 10:44:31.242 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:44:31.242 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:44:31.242 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 10:44:31.243 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:44:31.243 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:44:31.251 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 10:44:31.251 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:44:31.251 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "-8-Years -1-Months 0-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:45:57.169 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:45:58.523 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:45:58.523 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:45:58.525 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 10:45:58.525 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:45:58.525 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:45:58.525 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 10:45:58.526 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:45:58.526 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:45:58.527 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 10:45:58.527 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:45:58.528 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "-8-Years -1-Months 0-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:45:58.532 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 10:45:58.540 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:45:58.540 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "-8-Years -1-Months 0-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:49:11.899 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:49:12.912 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:49:12.912 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:49:12.914 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 10:49:12.914 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:49:12.914 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:49:12.914 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:49:12.914 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 10:49:12.914 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:49:12.914 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:49:12.914 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:49:12.914 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 10:49:12.914 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:49:12.916 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:49:12.916 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "-8-Years -1-Months 0-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:49:12.924 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 10:49:12.924 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:49:12.924 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:49:12.924 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "-46-Years -5-Months -7-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "-10-Years 0-Months -26-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "-8-Years -1-Months 0-Days"
+"nextUpcomingEventDate": "null"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"eventLenght": "-41-Years -6-Months -24-Days"
+"nextUpcomingEventDate": "null"
+}
+
+[DEBUG] 2018-11-16 10:50:16.421 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:50:17.339 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:50:17.340 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - 
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "0-Years 11-Months 0-Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - 
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "0-Years 11-Months 0-Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "0-Years 11-Months 5-Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:50:17.341 [main] UserDaoTests - 
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "0-Years 11-Months 0-Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "0-Years 11-Months 5-Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"eventLenght": "0-Years 5-Months 6-Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
+[DEBUG] 2018-11-16 10:50:17.348 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 10:50:17.348 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:50:17.348 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:50:17.348 [main] UserDaoTests - 
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "0-Years 11-Months 0-Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "0-Years 11-Months 5-Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"eventLenght": "0-Years 5-Months 6-Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "0-Years 6-Months 24-Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+
+[ERROR] 2018-11-16 10:52:01.916 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 10:52:10.037 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 10:52:11.083 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 10:52:11.085 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 10:52:11.088 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 10:52:11.089 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:52:11.089 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 10:52:11.090 [main] UserDaoTests - 
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "0-Years 11-Months 0-Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[DEBUG] 2018-11-16 10:52:11.090 [main] UserDaoTests - periodLength: P-24D
+[DEBUG] 2018-11-16 10:52:11.090 [main] UserDaoTests - oneTime
+[DEBUG] 2018-11-16 10:52:11.090 [main] UserDaoTests - age: 0-0--24
+[DEBUG] 2018-11-16 10:52:11.090 [main] UserDaoTests - 
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "0-Years 11-Months 0-Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"eventLenght": "0-Years 0-Months 24-Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+
+[DEBUG] 2018-11-16 10:52:11.091 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 10:52:11.091 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:52:11.099 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 10:52:11.099 [main] UserDaoTests - 
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "0-Years 11-Months 0-Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"eventLenght": "0-Years 0-Months 24-Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "0-Years 11-Months 5-Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+
+[DEBUG] 2018-11-16 10:52:11.104 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 10:52:11.104 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:52:11.104 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 10:52:11.104 [main] UserDaoTests - 
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "0-Years 11-Months 0-Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"eventLenght": "0-Years 0-Months 24-Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "0-Years 11-Months 5-Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"eventLenght": "0-Years 5-Months 6-Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
+[DEBUG] 2018-11-16 10:52:11.105 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 10:52:11.105 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 10:52:11.105 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 10:52:11.105 [main] UserDaoTests - 
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"eventLenght": "0-Years 11-Months 0-Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"eventLenght": "0-Years 0-Months 24-Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"eventLenght": "0-Years 11-Months 5-Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"eventLenght": "0-Years 5-Months 6-Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"eventLenght": "0-Years 6-Months 24-Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+
+[ERROR] 2018-11-16 11:01:44.179 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:01:50.309 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:01:51.178 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 11:01:51.185 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 11:01:51.187 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 11:01:51.187 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 11:01:51.187 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 11:01:51.187 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5:Months 6:Days"
+"eventLenght": "41Years: 6Months: 25:Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
+[DEBUG] 2018-11-16 11:01:51.187 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 11:01:51.188 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 11:01:51.192 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 11:01:51.192 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5:Months 6:Days"
+"eventLenght": "41Years: 6Months: 25:Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11:Months 5:Days"
+"eventLenght": "10Years: 0Months: 26:Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+
+[DEBUG] 2018-11-16 11:01:51.192 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 11:01:51.192 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 11:01:51.196 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 11:01:51.196 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5:Months 6:Days"
+"eventLenght": "41Years: 6Months: 25:Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11:Months 5:Days"
+"eventLenght": "10Years: 0Months: 26:Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6:Months 24:Days"
+"eventLenght": "46Years: 5Months: 7:Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+
+[DEBUG] 2018-11-16 11:01:51.197 [main] UserDaoTests - periodLength: P-24D
+[DEBUG] 2018-11-16 11:01:51.197 [main] UserDaoTests - oneTime
+[DEBUG] 2018-11-16 11:01:51.197 [main] UserDaoTests - age: 0-0--24
+[DEBUG] 2018-11-16 11:01:51.197 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5:Months 6:Days"
+"eventLenght": "41Years: 6Months: 25:Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11:Months 5:Days"
+"eventLenght": "10Years: 0Months: 26:Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6:Months 24:Days"
+"eventLenght": "46Years: 5Months: 7:Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0:Months 24:Days"
+"eventLenght": "0Years: 0Months: -24:Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+
+[DEBUG] 2018-11-16 11:01:51.201 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 11:01:51.201 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 11:01:51.201 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 11:01:51.201 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5:Months 6:Days"
+"eventLenght": "41Years: 6Months: 25:Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11:Months 5:Days"
+"eventLenght": "10Years: 0Months: 26:Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6:Months 24:Days"
+"eventLenght": "46Years: 5Months: 7:Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0:Months 24:Days"
+"eventLenght": "0Years: 0Months: -24:Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11:Months 0:Days"
+"eventLenght": "8Years: 1Months: 0:Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[ERROR] 2018-11-16 11:03:07.413 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:03:13.592 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:03:14.504 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 11:03:14.504 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 11:03:14.505 [main] UserDaoTests - periodLength: P46Y5M7D
+[DEBUG] 2018-11-16 11:03:14.505 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 11:03:14.505 [main] UserDaoTests - age: 46-5-7
+[DEBUG] 2018-11-16 11:03:14.505 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+
+[DEBUG] 2018-11-16 11:03:14.505 [main] UserDaoTests - periodLength: P10Y26D
+[DEBUG] 2018-11-16 11:03:14.506 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 11:03:14.506 [main] UserDaoTests - age: 10-0-26
+[DEBUG] 2018-11-16 11:03:14.506 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+
+[DEBUG] 2018-11-16 11:03:14.506 [main] UserDaoTests - periodLength: P-24D
+[DEBUG] 2018-11-16 11:03:14.508 [main] UserDaoTests - oneTime
+[DEBUG] 2018-11-16 11:03:14.508 [main] UserDaoTests - age: 0-0--24
+[DEBUG] 2018-11-16 11:03:14.508 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+
+[DEBUG] 2018-11-16 11:03:14.512 [main] UserDaoTests - periodLength: P8Y1M
+[DEBUG] 2018-11-16 11:03:14.512 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 11:03:14.512 [main] UserDaoTests - age: 8-1-0
+[DEBUG] 2018-11-16 11:03:14.512 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[DEBUG] 2018-11-16 11:03:14.512 [main] UserDaoTests - periodLength: P41Y6M25D
+[DEBUG] 2018-11-16 11:03:14.512 [main] UserDaoTests - annual
+[DEBUG] 2018-11-16 11:03:14.512 [main] UserDaoTests - age: 41-6-25
+[DEBUG] 2018-11-16 11:03:14.512 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
+[ERROR] 2018-11-16 11:06:13.485 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+[DEBUG] 2018-11-16 11:06:21.403 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:06:22.125 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 11:06:22.126 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 11:06:22.127 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
+[DEBUG] 2018-11-16 11:06:22.127 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+
+[DEBUG] 2018-11-16 11:06:22.127 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+
+[DEBUG] 2018-11-16 11:06:22.132 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[DEBUG] 2018-11-16 11:06:22.132 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "2018 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+
+[ERROR] 2018-11-16 11:08:52.994 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+[DEBUG] 2018-11-16 11:09:08.331 [main] GenericDao - Searching for user with userName = sok
+[ERROR] 2018-11-16 11:09:09.344 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+[DEBUG] 2018-11-16 11:09:11.644 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 11:09:11.650 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 11:09:11.651 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
+[DEBUG] 2018-11-16 11:09:11.660 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+
+[DEBUG] 2018-11-16 11:09:11.664 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+
+[DEBUG] 2018-11-16 11:09:11.672 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[DEBUG] 2018-11-16 11:09:11.672 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "2018 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+
+[DEBUG] 2018-11-16 11:09:22.553 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:09:24.168 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 11:09:24.170 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 11:09:24.173 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
+[DEBUG] 2018-11-16 11:09:24.174 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+
+[DEBUG] 2018-11-16 11:09:24.182 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+
+[DEBUG] 2018-11-16 11:09:24.182 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[DEBUG] 2018-11-16 11:09:24.182 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "2018 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+
+[ERROR] 2018-11-16 11:10:24.100 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+[DEBUG] 2018-11-16 11:10:30.955 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:10:31.801 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 11:10:31.809 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 11:10:31.812 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
+[DEBUG] 2018-11-16 11:10:31.813 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+
+[DEBUG] 2018-11-16 11:10:31.819 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+
+[DEBUG] 2018-11-16 11:10:31.826 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[DEBUG] 2018-11-16 11:10:31.826 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "2018 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+
+[ERROR] 2018-11-16 11:12:54.569 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+[DEBUG] 2018-11-16 11:13:00.661 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:13:01.534 [main] UserDaoTests - ------2018-11-16
+[DEBUG] 2018-11-16 11:13:01.534 [main] UserDaoTests - ------2019-11-16
+[DEBUG] 2018-11-16 11:13:01.535 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
+[DEBUG] 2018-11-16 11:13:01.535 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+
+[DEBUG] 2018-11-16 11:13:01.536 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+
+[DEBUG] 2018-11-16 11:13:01.541 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[DEBUG] 2018-11-16 11:13:01.541 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "2018 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+
+[ERROR] 2018-11-16 11:15:19.526 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+[DEBUG] 2018-11-16 11:15:27.319 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:15:28.137 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
+[DEBUG] 2018-11-16 11:15:28.138 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+
+[DEBUG] 2018-11-16 11:15:28.138 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+
+[DEBUG] 2018-11-16 11:15:28.147 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[DEBUG] 2018-11-16 11:15:28.148 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "2018 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+
+[ERROR] 2018-11-16 11:20:19.934 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '5' for key 'PRIMARY'
+[DEBUG] 2018-11-16 11:20:26.176 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:20:26.905 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "2018 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+
+[ERROR] 2018-11-16 11:21:16.117 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:21:22.855 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:21:23.809 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "2018 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+{
+"eventName": "2017 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2017-12-10"
+"timeUntil": "-11 Months and -6 Days"
+"eventLenght": "0 Years, 11 Months and 6 Days"
+"nextUpcomingEventDate": "2017-12-10"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[ERROR] 2018-11-16 11:25:18.149 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:25:25.191 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:25:25.995 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "2018 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[ERROR] 2018-11-16 11:26:09.258 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:26:15.430 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:26:16.277 [main] UserDaoTests - 
+{
+"eventName": "2017 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2017-12-10"
+"timeUntil": "-11 Months and -6 Days"
+"eventLenght": "0 Years, 11 Months and 6 Days"
+"nextUpcomingEventDate": "2017-12-10"
+}
+
+[ERROR] 2018-11-16 11:31:13.748 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:31:19.460 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:31:20.360 [main] UserDaoTests - 
+
+[ERROR] 2018-11-16 11:33:43.326 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:33:48.973 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:33:49.788 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "2018 Holiday Party"
+"eventType": "oneTime"
+"eventDate": "2018-12-10"
+"timeUntil": "0 Months and 24 Days"
+"eventLenght": "0 Years, 0 Months and -24 Days"
+"nextUpcomingEventDate": "2018-12-10"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[ERROR] 2018-11-16 11:34:31.822 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:34:36.578 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:34:37.230 [main] UserDaoTests - 
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[ERROR] 2018-11-16 11:35:09.697 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:35:14.381 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:35:15.027 [main] UserDaoTests - 
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+
+[ERROR] 2018-11-16 11:56:56.995 [main] Database - java.sql.SQLException: Can not issue empty query.
+[DEBUG] 2018-11-16 11:57:04.534 [main] GenericDao - Searching for user with userName = sok
+[DEBUG] 2018-11-16 11:57:05.208 [main] UserDaoTests - 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-06-09"
+"timeUntil": "6 Months and 24 Days"
+"eventLenght": "46 Years, 5 Months and 7 Days"
+"nextUpcomingEventDate": "2019-06-09"
+}
+{
+"eventName": "Lea's Birthday"
+"eventType": "annual"
+"eventDate": "2008-10-21"
+"timeUntil": "11 Months and 5 Days"
+"eventLenght": "10 Years, 0 Months and 26 Days"
+"nextUpcomingEventDate": "2019-10-21"
+}
+{
+"eventName": "Bradley's Birthday"
+"eventType": "annual"
+"eventDate": "2010-10-16"
+"timeUntil": "11 Months and 0 Days"
+"eventLenght": "8 Years, 1 Months and 0 Days"
+"nextUpcomingEventDate": "2019-10-16"
+}
+{
+"eventName": "Heather's Birthday"
+"eventType": "annual"
+"eventDate": "1977-04-22"
+"timeUntil": "5 Months and 6 Days"
+"eventLenght": "41 Years, 6 Months and 25 Days"
+"nextUpcomingEventDate": "2019-04-22"
+}
+
