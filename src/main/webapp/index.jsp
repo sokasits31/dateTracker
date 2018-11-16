@@ -19,9 +19,9 @@
 <br/>
 <h5>
 <ul>
-<li><a href="search.jsp">Search Events</a></li>
+<li><a href="searchType.jsp">Search Events</a></li>
 <br/>
-<li><a href="addUpdateDelete.jsp">Add/Update/Delete an Event</a></li>
+<li><a href="update.jsp">Add/Update/Delete an Event</a></li>
 </ul>
 
 </h5>
