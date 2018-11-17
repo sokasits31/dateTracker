@@ -15,6 +15,7 @@
 <h3>Welcome to the Search Page!</h3>
 <hr>
 
+<<<<<<< HEAD
 <form action="/dateTracker/services/events/search/all" method="post">
 <div class="form-group">
 <label for="userName">User name: </label>
@@ -38,6 +39,19 @@
     <button type="submit" name="searchevent" value="searchEvent" class="btn btn-primary">Search by Event</button>
     <button type="submit" name="searchdate" value="searchDate" class="btn btn-primary">Search by Date</button>
     <button type="submit" name="viewall" value="view/All" class="btn btn-primary">View all</button>
+=======
+<form action="/dateTracker/services/events/search/events" method="get">
+<div class="form-group">
+    <label for="userName">User name: </label>
+    <input type="text" class="form-control" id="userName" name="userName" aria-describedby="searchUserName" required>
+
+    <label for="searchEvent">Search Event: </label>
+    <input type="text" class="form-control" id="searchEvent" name="searchEvent" aria-describedby="searchEventHelp">
+</div>
+
+<hr>
+    <button type="submit" name="searchEvent" value="searchEvent" class="btn btn-primary">View all</button>
+>>>>>>> master
     <button type="reset" name="reset" value="reset" class="btn btn-primary">Reset</button>
 </form>
 

@@ -9,7 +9,9 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
+import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 /**
  * A generic DAO somewhat inspired by http://rodrigouchoa.wordpress.com
@@ -126,6 +128,21 @@ public class GenericDao<T> {
     }
 
 
+    public List<T> getByPropertyEqualint(String propertyName, int value) {
+        Session session = getSession();
+
+        logger.debug("Searching for user with " + propertyName + " = " + value);
+
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from( type );
+        query.select(root).where(builder.equal(root.get(propertyName), value));
+        List<T> list = session.createQuery( query ).getResultList();
+        session.close();
+        return list;
+    }
+
+
     /**
      * Get user by property (like)
      * sample usage: getByPropertyLike("lastname", "C")
@@ -146,6 +163,7 @@ public class GenericDao<T> {
         session.close();
         return list;
     }
+
 
     /**
      *  Returns an open session for the SessionFactory
