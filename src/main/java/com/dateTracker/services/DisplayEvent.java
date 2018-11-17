@@ -105,9 +105,5 @@ public class DisplayEvent {
                 .build();
     }
 
-    /**
-     * This method returns a JSON response of a movie containing the keyword passed into the path
-     * @param title a movie title keyword
-     */
 
 }
