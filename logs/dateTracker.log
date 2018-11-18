@@ -2225,3 +2225,6 @@
 "nextUpcomingEventDate": "2019-04-22"
 }
 
+[INFO ] 2018-11-17 22:05:02.404 [http-nio-8080-exec-5] DisplayEvent - starting the try block
+[DEBUG] 2018-11-17 22:05:04.408 [http-nio-8080-exec-5] DisplayEvent - in the try block and added parsed json for all EVENTS
+[DEBUG] 2018-11-17 22:05:04.410 [http-nio-8080-exec-5] DisplayEvent - string response: [{"id":1,"eventName":"Steve's Birthday","eventType":"Birthday","eventDate":{"year":1972,"month":"SEPTEMBER","monthValue":9,"dayOfMonth":6,"dayOfWeek":"WEDNESDAY","era":"CE","dayOfYear":250,"leapYear":true,"chronology":{"calendarType":"iso8601","id":"ISO"}}},{"id":2,"eventName":"Lea's Birthday","eventType":"Birthday","eventDate":{"year":2008,"month":"OCTOBER","monthValue":10,"dayOfMonth":21,"dayOfWeek":"TUESDAY","era":"CE","dayOfYear":295,"leapYear":true,"chronology":{"calendarType":"iso8601","id":"ISO"}}},{"id":3,"eventName":"Bradley's Birthday","eventType":"Birthday","eventDate":{"year":2010,"month":"OCTOBER","monthValue":10,"dayOfMonth":16,"dayOfWeek":"SATURDAY","era":"CE","dayOfYear":289,"leapYear":false,"chronology":{"calendarType":"iso8601","id":"ISO"}}},{"id":4,"eventName":"Heather's Birthday","eventType":"Birthday","eventDate":{"year":1977,"month":"APRIL","monthValue":4,"dayOfMonth":22,"dayOfWeek":"FRIDAY","era":"CE","dayOfYear":112,"leapYear":false,"chronology":{"calendarType":"iso8601","id":"ISO"}}}]

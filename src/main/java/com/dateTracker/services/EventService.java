@@ -5,6 +5,8 @@ import com.dateTracker.entity.User;
 import com.dateTracker.persistence.GenericDao;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
@@ -15,18 +17,29 @@ import java.util.List;
 @Path("/events")
 public class EventService {
 
+    private final Logger logger = LogManager.getLogger(this.getClass());
 
-    @POST
-    @Path("search/all")
-    public Response getAllEvents(
-            @FormParam("userName") int id) {
+    @GET
+    @Path("search/all/{userName}")
+    public Response getAllEvents(@PathParam("userName") String userName) throws JsonProcessingException {
 
+        logger.info("starting the getAllEvents service");
         LocalDate currentDate = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
         String eventDate = currentDate.plusDays(365).format(formatter);
+        logger.debug("the new event date is " + eventDate);
 
-        GenericDao dao = new GenericDao(User.class);
-        Event allEvents = (Event)dao.getById(id);
+        GenericDao userDao = new GenericDao(User.class);
+        List <User> userList = userDao.getByPropertyEqual("user_name", userName);
+
+        int id = userList.get(0).getId();
+
+        GenericDao eventDao = new GenericDao(Event.class);
+        List<Event> allEvents = eventDao.getByPropertyEqualint("userName", id);
+
+        ObjectMapper mapper = new ObjectMapper();
+        String response = mapper.writeValueAsString(allEvents);
+        logger.debug("Response: " + response);
 
         return Response.status(200)
                 .entity("List of all events : " + allEvents)
@@ -35,10 +48,10 @@ public class EventService {
 
 
     @GET
-    @Path("search/event")
+    @Path("search/event/{userName}{eventType}")
     public Response getDaysEvent(
-            @FormParam("userName") String userName,
-            @FormParam("eventName") String eventName) {
+            @PathParam("userName") String userName,
+            @PathParam("eventType") String eventType) throws JsonProcessingException {
 
         LocalDate currentDate = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
@@ -46,7 +59,7 @@ public class EventService {
 
         GenericDao dao = new GenericDao(Event.class);
 
-        List<Event> eventList = dao.getByPropertyEqual("Event_Date",eventDate);
+        List<Event> eventList = dao.getByPropertyEqual("event_type",eventType);
 
         return Response.status(200)
                 .entity("List of requested events : " + eventList)
@@ -61,7 +74,7 @@ public class EventService {
             @FormParam("eventType") String eventType,
             @FormParam("eventDate") String eventDate,
             @FormParam("user_id") int userId,
-            @FormParam("submit") String submit) {
+            @FormParam("submit") String submit) throws JsonProcessingException {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
         LocalDate localDate = LocalDate.parse(eventDate, formatter);
@@ -91,7 +104,7 @@ public class EventService {
             @FormParam("eventType") String eventType,
             @FormParam("eventDate") String eventDate,
             @FormParam("user_id") int userId,
-            @FormParam("submit") String submit) {
+            @FormParam("submit") String submit) throws JsonProcessingException {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
         LocalDate localDate = LocalDate.parse(eventDate, formatter);
@@ -116,7 +129,7 @@ public class EventService {
     @Path("/delete")
     public Response deleteEvent(
             @FormParam("userName") String userName,
-            @FormParam("submit") String submit) {
+            @FormParam("submit") String submit) throws JsonProcessingException {
 
         User user = new User();
 
