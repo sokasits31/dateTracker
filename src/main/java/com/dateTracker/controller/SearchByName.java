@@ -1,8 +1,8 @@
 package com.dateTracker.controller;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -19,21 +19,25 @@ import java.io.IOException;
  */
 
 @WebServlet(
-        urlPatterns = {"/searchEvent"}
+        urlPatterns = {"/searchByName"}
 )
 
-public class SearchEvent extends HttpServlet {
+public class SearchByName extends HttpServlet {
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         String name = req.getParameter("userName");
-        String event = req.getParameter("eventName");
+        logger.info("Search By Name - doGet block" + name);
 
         Client client = ClientBuilder.newClient();
 
         WebTarget target = client.target("http://localhost:8080/dateTracker/services/events/searchbyName/" + name);
+        logger.info("After WebTarget " + target);
 
         String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
+
 
         //forward to results.jsp page
         //RequestDispatcher dispatcher = req.getRequestDispatcher("http://localhost:8080/dateTracker/services/events/searchbyName/" + event);

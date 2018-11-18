@@ -51,9 +51,10 @@ public class DisplayEvent {
         }
     }
 
-    @GET
-    @Path("/searchbyName/{userName}")
-    public Response getAllEvents(@PathParam("userName") String name) throws JsonProcessingException {
+    @POST
+    @Path("/searchbyName")
+    public Response getAllEvents(@FormParam("userName") String name) throws JsonProcessingException {
+
         GenericDao eventDAO = new GenericDao(Event.class);
         GenericDao userDAO = new GenericDao(User.class);
         logger.info(name);
@@ -93,6 +94,16 @@ public class DisplayEvent {
     }
 
     @POST
+    @Path("/delete")
+    public Response addUser(
+            @FormParam("userName") String id){
+
+        return Response.status(200)
+                .entity(" Product added successfuly!<br> Id: "+id)
+                .build();
+    }
+
+    @POST
     @Path("/add")
     public Response addUser(
             @FormParam("userName") String id,
@@ -100,14 +111,19 @@ public class DisplayEvent {
             @FormParam("submit") String submit,
             @FormParam("eventDate") String date) {
 
-        return Response.status(200)
-                .entity(" Product added successfuly!<br> Id: "+id+"<br> Name: " + name +"<br> + Date: " + date +"<br> + Submit: " + submit)
-                .build();
-    }
+        String result = "";
+        int status = 200;
+        int id = 0;
 
-    /**
-     * This method returns a JSON response of a movie containing the keyword passed into the path
-     * @param title a movie title keyword
-     */
+        if (id > 0) {
+            return Response.status(200)
+                    .entity(" Product added successfuly!<br> Id: " + id + "<br> Name: " + name + "<br> + Date: " + date + "<br> + Submit: " + submit)
+                    .build();
+        }else {
+            return Response.status(500)
+                    .entity(" Product added unsuccessfuly!<br> Id: " + id + "<br> Name: " + name + "<br> + Date: " + date + "<br> + Submit: " + submit)
+                    .build();
+        }
+    }
 
 }

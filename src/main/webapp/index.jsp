@@ -19,8 +19,6 @@
 <br/>
 <h5>
     <ul>
-        <li><a href="searchAll.jsp">Search All</a></li>
-        <br/>
         <li><a href="searchEvent.jsp">Search Events</a></li>
         <br/>
         <li><a href="searchByName.jsp">Search By Name</a></li>

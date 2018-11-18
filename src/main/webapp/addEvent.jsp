@@ -38,7 +38,7 @@
 </div>
 
 <hr>
-<button type="submit" name="submit" value="add" class="btn btn-primary">Add</button>
+<button type="submit" name="submit" value="add" class="btn btn-primary">Submit</button>
 <button type="reset" name="reset" value="reset" class="btn btn-primary">Reset</button>
 
 </form>
