@@ -20,7 +20,8 @@ public class EventService {
     private final Logger logger = LogManager.getLogger(this.getClass());
 
     @GET
-    @Path("/search/all/{userName}")
+    @Path("/searchbyName/{userName}")
+    //@Path("/search/all/{userName}")
     public Response getAllEvents(
             @PathParam("userName") String userName) throws JsonProcessingException {
 
@@ -37,6 +38,8 @@ public class EventService {
 
         GenericDao eventDao = new GenericDao(Event.class);
         List<Event> allEvents = eventDao.getByPropertyEqualint("user_id", user.getId());
+
+        logger.debug("the new event date is " + allEvents.get(0).getEventDate());
 
         ObjectMapper mapper = new ObjectMapper();
         String response = mapper.writeValueAsString(allEvents);
