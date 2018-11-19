@@ -2,8 +2,10 @@ package com.dateTracker.persistence;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Order;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
@@ -61,6 +63,7 @@ public class GenericDao<T> {
         session.close();
         return entity;
     }
+
 
     /**
      * Deletes the entity.

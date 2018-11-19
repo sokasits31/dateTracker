@@ -15,11 +15,11 @@
 <h3>Welcome to the Search Page!</h3>
 <hr>
 
-<form action="/dateTracker/services/events/search/events" method="get">
+
+<form action="/dateTracker/services/events/search/event" method="get">
 <div class="form-group">
     <label for="userName">User name: </label>
     <input type="text" class="form-control" id="userName" name="userName" aria-describedby="searchUserName" required>
-
     <label for="searchEvent">Search Event: </label>
     <input type="text" class="form-control" id="searchEvent" name="searchEvent" aria-describedby="searchEventHelp">
 </div>

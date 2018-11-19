@@ -1,7 +1,5 @@
 package com.dateTracker.services;
 
-import com.dateTracker.services.DisplayEvent;
-
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 import java.util.HashSet;
@@ -17,7 +15,7 @@ public class EventApplication extends Application {
     @Override
     public Set<Class<?>> getClasses() {
         HashSet h = new HashSet<Class<?>>();
-        h.add(DisplayEvent.class );
+        h.add(EventService.class );
         return h;
     }
 }
