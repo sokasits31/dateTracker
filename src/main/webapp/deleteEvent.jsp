@@ -23,17 +23,8 @@
 
 <div class="form-group">
 <label>Event Name *</label>
-<input type="text" class="form-control" id="eventName" name="eventName" maxlength="100" required Title="Event name is required."/>
+<input type="text" class="form-control" id="eventName" name="eventName" maxlength="100" />
 </div>
-
-<div class="form-group">
-<label>Event Type</label>
-<input type="text" class="form-control" id="eventType" name="eventType" maxlength="50">
-</div>
-
-<div class="form-group">
-<label>Event Date</label>
-<input type="text" class="form-control" name="eventDate" id="eventDate" placeholder="YYYY-MM-DD" maxlength="10" size="50" required pattern="\d{1,4}-\d{1,2}-\d{2}" Title="Event Date yyyy-mm-dd is required."/>
 
 </div>
 

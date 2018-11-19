@@ -2252,3 +2252,68 @@
 [DEBUG] 2018-11-18 13:44:07.658 [http-nio-8080-exec-5] GenericDao - Searching for user with userName = danMiller
 [DEBUG] 2018-11-18 13:44:08.045 [http-nio-8080-exec-5] EventService - userId = 3
 [INFO ] 2018-11-18 13:44:08.045 [http-nio-8080-exec-5] EventService - loaded the event
+[INFO ] 2018-11-18 14:31:17.723 [http-nio-8080-exec-4] EventService - starting the getAllEvents service
+[INFO ] 2018-11-18 14:32:55.045 [http-nio-8080-exec-5] EventService - starting the getAllEvents service
+[INFO ] 2018-11-18 14:35:34.809 [http-nio-8080-exec-6] EventService - starting the getAllEvents service
+[INFO ] 2018-11-18 14:43:16.914 [http-nio-8080-exec-4] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-18 14:43:19.762 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = steveSokasits
+[DEBUG] 2018-11-18 14:43:20.081 [http-nio-8080-exec-4] GenericDao - Searching for user with user = 2
+[DEBUG] 2018-11-18 14:43:20.455 [http-nio-8080-exec-4] EventService - Response: [{"id":1,"eventName":"Steve's Birthday","eventType":"Birthday","eventDate":{"year":1972,"month":"SEPTEMBER","monthValue":9,"dayOfMonth":6,"dayOfWeek":"WEDNESDAY","era":"CE","dayOfYear":250,"leapYear":true,"chronology":{"calendarType":"iso8601","id":"ISO"}}},{"id":2,"eventName":"Lea's Birthday","eventType":"Birthday","eventDate":{"year":2008,"month":"OCTOBER","monthValue":10,"dayOfMonth":21,"dayOfWeek":"TUESDAY","era":"CE","dayOfYear":295,"leapYear":true,"chronology":{"calendarType":"iso8601","id":"ISO"}}},{"id":3,"eventName":"Bradley's Birthday","eventType":"Birthday","eventDate":{"year":2010,"month":"OCTOBER","monthValue":10,"dayOfMonth":16,"dayOfWeek":"SATURDAY","era":"CE","dayOfYear":289,"leapYear":false,"chronology":{"calendarType":"iso8601","id":"ISO"}}},{"id":4,"eventName":"Heather's Birthday","eventType":"Birthday","eventDate":{"year":1977,"month":"APRIL","monthValue":4,"dayOfMonth":22,"dayOfWeek":"FRIDAY","era":"CE","dayOfYear":112,"leapYear":false,"chronology":{"calendarType":"iso8601","id":"ISO"}}}]
+[INFO ] 2018-11-18 14:43:31.088 [http-nio-8080-exec-7] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-18 14:43:31.095 [http-nio-8080-exec-7] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 14:43:31.109 [http-nio-8080-exec-7] GenericDao - Searching for user with user = 3
+[DEBUG] 2018-11-18 14:43:31.134 [http-nio-8080-exec-7] EventService - Response: [{"id":5,"eventName":"Dan's Birthday","eventType":"Birthday","eventDate":{"year":1974,"month":"JULY","monthValue":7,"dayOfMonth":3,"dayOfWeek":"WEDNESDAY","era":"CE","dayOfYear":184,"leapYear":false,"chronology":{"calendarType":"iso8601","id":"ISO"}}}]
+[DEBUG] 2018-11-18 14:46:01.292 [http-nio-8080-exec-5] EventService - the new event date is 1975-09-08
+[DEBUG] 2018-11-18 14:46:01.292 [http-nio-8080-exec-5] EventService - userName = kiaYang
+[DEBUG] 2018-11-18 14:46:01.293 [http-nio-8080-exec-5] GenericDao - Searching for user with userName = kiaYang
+[DEBUG] 2018-11-18 14:46:01.306 [http-nio-8080-exec-5] EventService - userId = 1
+[INFO ] 2018-11-18 14:46:01.306 [http-nio-8080-exec-5] EventService - loaded the event
+[INFO ] 2018-11-18 14:46:17.756 [http-nio-8080-exec-1] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-18 14:46:17.756 [http-nio-8080-exec-1] GenericDao - Searching for user with userName = kiaYang
+[DEBUG] 2018-11-18 14:46:17.767 [http-nio-8080-exec-1] GenericDao - Searching for user with user = 1
+[DEBUG] 2018-11-18 14:46:17.799 [http-nio-8080-exec-1] EventService - Response: [{"id":6,"eventName":"Kia's Birthday","eventType":"Birthday","eventDate":{"year":1975,"month":"SEPTEMBER","monthValue":9,"dayOfMonth":8,"dayOfWeek":"MONDAY","era":"CE","dayOfYear":251,"leapYear":false,"chronology":{"calendarType":"iso8601","id":"ISO"}}}]
+[ERROR] 2018-11-18 14:55:08.550 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'test_dateTracker'
+[ERROR] 2018-11-18 15:09:28.021 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'test_dateTracker'
+[ERROR] 2018-11-18 15:11:04.714 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'test_dateTracker'
+[DEBUG] 2018-11-18 15:40:55.602 [http-nio-8080-exec-5] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 15:51:15.217 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 15:55:49.149 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 15:58:15.636 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 16:08:46.939 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 16:09:43.579 [http-nio-8080-exec-4] EventService - userId = 3
+[INFO ] 2018-11-18 16:09:43.640 [http-nio-8080-exec-4] EventService - deleted the event
+[DEBUG] 2018-11-18 20:54:55.774 [http-nio-8080-exec-6] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 20:54:57.221 [http-nio-8080-exec-6] EventService - userId = 3
+[INFO ] 2018-11-18 20:54:57.222 [http-nio-8080-exec-6] EventService - deleted the event
+[DEBUG] 2018-11-18 21:10:23.471 [http-nio-8080-exec-5] EventService - the new event date is 2006-04-01
+[DEBUG] 2018-11-18 21:10:23.607 [http-nio-8080-exec-5] EventService - userName = danMiller
+[DEBUG] 2018-11-18 21:10:23.881 [http-nio-8080-exec-5] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 21:10:26.320 [http-nio-8080-exec-5] EventService - userId = 3
+[INFO ] 2018-11-18 21:10:26.321 [http-nio-8080-exec-5] EventService - loaded the event
+[INFO ] 2018-11-18 21:34:17.676 [http-nio-8080-exec-6] EventService - deleted the event
+[INFO ] 2018-11-18 22:19:06.474 [http-nio-8080-exec-7] EventService - deleted the event
+[DEBUG] 2018-11-18 22:19:27.619 [http-nio-8080-exec-7] GenericDao - Searching for user with eventName = Dan's Birthday
+[DEBUG] 2018-11-18 22:27:22.015 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 22:27:25.268 [http-nio-8080-exec-4] EventService - userId = 3
+[INFO ] 2018-11-18 22:27:25.282 [http-nio-8080-exec-4] EventService - deleted the event
+[INFO ] 2018-11-18 22:42:15.007 [http-nio-8080-exec-8] EventService - deleted the event
+[DEBUG] 2018-11-18 22:42:33.982 [http-nio-8080-exec-8] GenericDao - Searching for user with eventName = Dan's Birthday
+[INFO ] 2018-11-18 23:21:06.893 [http-nio-8080-exec-6] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-18 23:21:30.363 [http-nio-8080-exec-6] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 23:21:33.162 [http-nio-8080-exec-6] GenericDao - Searching for user with user = 3
+[INFO ] 2018-11-18 23:21:33.285 [http-nio-8080-exec-6] EventService - starting the try block
+[DEBUG] 2018-11-18 23:21:36.131 [http-nio-8080-exec-6] EventService - in the try block and added parsed json for all EVENTS
+[DEBUG] 2018-11-18 23:21:36.131 [http-nio-8080-exec-6] EventService - string response: [{"id":8,"eventName":"Dan's Wedding","eventType":"WEdding","eventDate":{"year":2006,"month":"APRIL","chronology":{"calendarType":"iso8601","id":"ISO"},"monthValue":4,"dayOfMonth":1,"dayOfWeek":"SATURDAY","era":"CE","dayOfYear":91,"leapYear":false}}]
+[DEBUG] 2018-11-18 23:27:19.563 [http-nio-8080-exec-5] EventService - the new event date is 1974-07-03
+[DEBUG] 2018-11-18 23:27:19.634 [http-nio-8080-exec-5] EventService - userName = danMiller
+[DEBUG] 2018-11-18 23:27:19.646 [http-nio-8080-exec-5] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 23:27:21.087 [http-nio-8080-exec-5] EventService - userId = 3
+[INFO ] 2018-11-18 23:27:21.087 [http-nio-8080-exec-5] EventService - loaded the event
+[INFO ] 2018-11-18 23:28:47.832 [http-nio-8080-exec-2] EventService - deleted the event
+[DEBUG] 2018-11-18 23:28:47.865 [http-nio-8080-exec-2] GenericDao - Searching for user with eventName = Dan's Birthday
+[INFO ] 2018-11-18 23:29:34.097 [http-nio-8080-exec-9] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-18 23:29:34.121 [http-nio-8080-exec-9] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-18 23:29:34.748 [http-nio-8080-exec-9] GenericDao - Searching for user with user = 3
+[INFO ] 2018-11-18 23:29:34.941 [http-nio-8080-exec-9] EventService - starting the try block
+[DEBUG] 2018-11-18 23:29:35.045 [http-nio-8080-exec-9] EventService - in the try block and added parsed json for all EVENTS
+[DEBUG] 2018-11-18 23:29:35.049 [http-nio-8080-exec-9] EventService - string response: [{"id":8,"eventName":"Dan's Wedding","eventType":"WEdding","eventDate":{"year":2006,"month":"APRIL","chronology":{"calendarType":"iso8601","id":"ISO"},"monthValue":4,"dayOfMonth":1,"dayOfWeek":"SATURDAY","era":"CE","dayOfYear":91,"leapYear":false}}]

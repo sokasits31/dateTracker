@@ -10,6 +10,7 @@ import org.apache.logging.log4j.Logger;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
+import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -19,56 +20,64 @@ public class EventService {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
-    @GET
-    @Path("/searchbyName/{userName}")
-    //@Path("/search/all/{userName}")
+    @POST
+    @Path("/searchbyName")
     public Response getAllEvents(
-            @PathParam("userName") String userName) throws JsonProcessingException {
+            @FormParam("userName") String userName) throws JsonProcessingException {
 
         logger.info("starting the getAllEvents service");
-        LocalDate currentDate = LocalDate.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
-        String eventDate = currentDate.plusDays(365).format(formatter);
-        logger.debug("the new event date is " + eventDate);
 
         GenericDao userDao = new GenericDao(User.class);
-        List <User> userList = userDao.getByPropertyEqual("user_name", userName);
+        List <User> userList = userDao.getByPropertyEqual("userName", userName);
 
         User user = userList.get(0);
 
         GenericDao eventDao = new GenericDao(Event.class);
-        List<Event> allEvents = eventDao.getByPropertyEqualint("user_id", user.getId());
+        List<Event> allEvents = eventDao.getByPropertyEqualint("user", user.getId());
 
-        logger.debug("the new event date is " + allEvents.get(0).getEventDate());
+        String response = "";
 
-        ObjectMapper mapper = new ObjectMapper();
-        String response = mapper.writeValueAsString(allEvents);
-        logger.debug("Response: " + response);
-
-        return Response.status(200)
-                .entity("List of all events : " + allEvents)
-                .build();
+        if (!allEvents.isEmpty()) {
+            try {
+                logger.info("starting the try block");
+                ObjectMapper mapper = new ObjectMapper();
+                response = mapper.writeValueAsString(allEvents);
+                logger.debug("in the try block and added parsed json for all EVENTS");
+            } catch (IOException ioException) {
+                logger.error(ioException.getMessage());
+                logger.info(ioException.getMessage());
+            }
+            logger.debug("string response: " + response);
+            return Response.status(200).entity("List of requested events : <br>" + response).build();
+        } else {
+            return Response.status(404).entity("Status 404: Requested Events Not Found").build();
+        }
     }
 
 
-    @GET
-    @Path("/search/event/{userName}/{eventType}")
+    @POST
+    @Path("/search/event")
     public Response getDaysEvent(
-            @PathParam("userName") String userName,
-            @PathParam("eventType") String eventType) throws JsonProcessingException {
+            @FormParam("userName") String userName,
+            @FormParam("eventType") String eventType) throws JsonProcessingException {
 
         LocalDate currentDate = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
         String eventDate = currentDate.plusDays(365).format(formatter);
 
-        GenericDao dao = new GenericDao(Event.class);
+        GenericDao userDao = new GenericDao(User.class);
+        List <User> userList = userDao.getByPropertyEqual("userName", userName);
 
-        List<Event> eventList = dao.getByPropertyEqual("event_type",eventType);
+        User user = userList.get(0);
+
+        GenericDao eventDao = new GenericDao(Event.class);
+        List<Event> allEvents = eventDao.getByPropertyLike("eventType", eventType);
+
 
 
 
         return Response.status(200)
-                .entity("List of requested events : " + eventList)
+                .entity("List of requested events : " + allEvents)
                 .build();
     }
 
@@ -97,19 +106,21 @@ public class EventService {
 
         Event event = new Event(eventName, eventType, localDate, user);
 
-        //event.setEventName(eventName);
-        //event.setEventType(eventType);
-        //event.setEventDate(localDate);
-        //event.setId(userId);
-
         logger.info("loaded the event");
 
         GenericDao eventDao = new GenericDao(Event.class);
         eventDao.insert(event);
 
-        return Response.status(200)
-                .entity(" User Event added successfuly!<br> Name: " + eventName + "<br> Type: " + eventType + "<br> Date: " + eventDate)
-                .build();
+
+        if (event.getId() > 0) {
+            return Response.status(200)
+                    .entity(" Product added successfuly! <br> User Name: " + userName + "<br> Event Name: " + eventName + "<br> Event Type: " + eventType + "<br> Date: " + eventDate + "<br> Submit: " + submit)
+                    .build();
+        }else {
+            return Response.status(500)
+                    .entity(" Product added unsuccessfuly! <br> User Name: " + userName + "<br> Event Name: " + eventName + "<br> Event Type: " + eventType + "<br> Date: " + eventDate + "<br> Submit: " + submit)
+                    .build();
+        }
     }
 
 
@@ -141,22 +152,27 @@ public class EventService {
     }
 
 
-    @DELETE
+    @POST
     @Path("/delete")
     public Response deleteEvent(
             @FormParam("userName") String userName,
+            @FormParam("eventName") String eventName,
             @FormParam("submit") String submit) throws JsonProcessingException {
 
-        User user = new User();
+        logger.info("deleted the event");
 
-        GenericDao dao = new GenericDao(Event.class);
+        GenericDao eventDao = new GenericDao(Event.class);
+        List<Event> event = eventDao.getByPropertyEqual("eventName", eventName);
+        eventDao.delete(event.get(0));
 
-        user.setUserName(userName);
-
-        dao.delete(user);
-
-        return Response.status(200)
-                .entity(" User Events deleted successfuly!<br> Name: " + userName)
-                .build();
+        if (event.get(0).getId() > 0) {
+            return Response.status(200)
+                    .entity(" User Event deleted successfuly!<br> User Name: " + userName + "<br> Event Name: " + eventName)
+                    .build();
+        }else {
+            return Response.status(500)
+                    .entity(" User Event deleted successfuly!<br> User Name: " + userName + "<br> Event Name: " + eventName)
+                    .build();
+        }
     }
 }
