@@ -1,5 +1,3 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -36,7 +34,6 @@
     </figure>
 </div>
 
-<h1><%= request.getParameter("message") %></h1>
 
 </body>
 </html>
