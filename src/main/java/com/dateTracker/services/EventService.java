@@ -12,6 +12,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.Response;
 import java.io.IOException;
 import java.time.LocalDate;
+import java.time.Period;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
@@ -27,6 +28,12 @@ public class EventService {
 
         logger.info("starting the getAllEvents service");
 
+        // create local variables for processing loop
+        Period periodLength;               // used to total length or age of event
+        Period daysUntil;                  // used to document how many dates to next event
+        LocalDate upcomingEvent = null;    // used to hold next upcoming date
+        String JSONresponse = "\n";        //  start of JSON Response
+
         GenericDao userDao = new GenericDao(User.class);
         List <User> userList = userDao.getByPropertyEqual("userName", userName);
 
@@ -35,20 +42,62 @@ public class EventService {
         GenericDao eventDao = new GenericDao(Event.class);
         List<Event> allEvents = eventDao.getByPropertyEqualint("user", user.getId());
 
-        String response = "";
-
         if (!allEvents.isEmpty()) {
+
+            for (Event e:allEvents) {
+
+                // Determine length of event
+                periodLength = Period.between(e.getEventDate(), LocalDate.now());
+                logger.debug("periodLength: " + periodLength.getDays());
+
+                if (e.getEventType().equals("annual")) {
+                    // Determine next upcoming event
+                    upcomingEvent = e.getEventDate().plusYears(periodLength.getYears() + 1);
+                    daysUntil = Period.between(LocalDate.now(), upcomingEvent);
+                } else {
+                    upcomingEvent = e.getEventDate();
+                    daysUntil = Period.between(LocalDate.now(), e.getEventDate());
+                }
+
+                String value = "birth";   // would be are PARAM in value from screen
+                String response = "";
+
+                logger.debug("upcomingEvent: " + upcomingEvent);
+
+                if (upcomingEvent.isAfter(LocalDate.now())) {
+                        //&& e.getEventName().toLowerCase().contains(value.toLowerCase())) {
+
+                    JSONresponse += "{\n";
+                    JSONresponse += "\"eventName\": \"" + e.getEventName() + "\"\n";
+                    JSONresponse += "\"eventType\": \"" + e.getEventType() + "\"\n";
+                    JSONresponse += "\"eventDate\": \"" + e.getEventDate() + "\"\n";
+                    JSONresponse += "\"timeUntil\": \"" + daysUntil.getMonths() + " Months and "
+                            + daysUntil.getDays() + " Days" + "\"\n";
+
+                    JSONresponse += "\"eventLength\": \"" + periodLength.getYears() + " Years, "
+                            + periodLength.getMonths() + " Months and "
+                            + periodLength.getDays() + " Days" + "\"\n";
+                    JSONresponse += "\"nextUpcomingEventDate\": \"" + upcomingEvent + "\"\n";
+
+                    JSONresponse += "}\n";
+                }
+            }
+
+            /**
             try {
                 logger.info("starting the try block");
                 ObjectMapper mapper = new ObjectMapper();
-                response = mapper.writeValueAsString(allEvents);
+                response = mapper.writeValueAsString(e);
                 logger.debug("in the try block and added parsed json for all EVENTS");
             } catch (IOException ioException) {
                 logger.error(ioException.getMessage());
                 logger.info(ioException.getMessage());
             }
-            logger.debug("string response: " + response);
-            return Response.status(200).entity("List of requested events : <br>" + response).build();
+             */
+
+            logger.debug("string response: " + JSONresponse);
+            return Response.status(200).entity("List of requested events : <br>" + JSONresponse).build();
+
         } else {
             return Response.status(404).entity("Status 404: Requested Events Not Found").build();
         }
@@ -130,7 +179,7 @@ public class EventService {
             @FormParam("eventName") String eventName,
             @FormParam("eventType") String eventType,
             @FormParam("eventDate") String eventDate,
-            @FormParam("user_id") int userId,
+            @FormParam("userName") String userName,
             @FormParam("submit") String submit) throws JsonProcessingException {
 
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
@@ -138,16 +187,11 @@ public class EventService {
 
         Event event = new Event();
 
-        event.setEventName(eventName);
-        event.setEventType(eventType);
-        event.setEventDate(localDate);
-        event.setId(userId);
-
         GenericDao dao = new GenericDao(Event.class);
         dao.saveOrUpdate(event);
 
         return Response.status(200)
-                .entity(" User Event updated successfuly!<br> Id: "+userId+"<br> Name: " + eventName +"<br> + Date: " + eventDate +"<br> + Submit: " + submit)
+                .entity(" User Event updated successfuly!<br> UserName: "+userName+"<br> Name: " + eventName +"<br> + Date: " + eventDate +"<br> + Submit: " + submit)
                 .build();
     }
 
