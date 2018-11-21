@@ -25,7 +25,8 @@ public class SearchEvent extends HttpServlet {
         logger.info("starting the doGet method in SearchEvent");
 
         String userName = req.getParameter("userName");
-        String url = "http://localhost:8080/dateTracker/services/events/searchbyName/" + userName;
+        //String url = "http://localhost:8080/dateTracker/services/events/searchbyName/" + userName;
+        String url = "/dateTracker/services/events/searchbyName/" + userName;
         resp.sendRedirect(url);
 
     }
