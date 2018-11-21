@@ -26,20 +26,23 @@
             <input type="text" class="form-control" id="eventName" name="eventName" maxlength="100" />
         </div>
 
+        <hr>
+        <button type="submit" name="submit" value="delete" class="btn btn-primary">Delete</button>
+        <button type="reset" name="reset" value="reset" class="btn btn-primary">Reset</button>
+
+    </form>
+
+    <hr>
+    <figure class="figure">
+        <img src="images/dates.jpg"  class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+        <figcaption class="figure-caption"></figcaption>
+    </figure>
 </div>
 
-<hr>
-<button type="submit" name="submit" value="delete" class="btn btn-primary">Delete</button>
-<button type="reset" name="reset" value="reset" class="btn btn-primary">Reset</button>
-
-</form>
-
-<hr>
-<figure class="figure">
-    <img src="images/dates.jpg"  class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
-    <figcaption class="figure-caption"></figcaption>
-</figure>
 </div>
+
+<footer class="container-fluid text-center">
+</footer>
 
 </body>
 </html>

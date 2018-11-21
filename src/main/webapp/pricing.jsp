@@ -31,12 +31,7 @@
         </div>
 
         <div class="col-md-9">
-            <p>
-<<<<<<< HEAD
-                <!-- Content here -->
-=======
-    <!-- Content here -->
->>>>>>> master
+
             <p>
                 <b>Our service is free!!!!</b>
                 <br><br>
