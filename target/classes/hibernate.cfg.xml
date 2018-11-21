@@ -21,7 +21,6 @@
         <mapping class="com.dateTracker.entity.User"/>
         <mapping class="com.dateTracker.entity.Event"/>
 
-
     </session-factory>
 
 </hibernate-configuration>
