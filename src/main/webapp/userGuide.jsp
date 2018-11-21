@@ -12,7 +12,7 @@
 <div class="container">
     <!-- Content here -->
     <hr>
-    <h3 align="center">Constructing a Request</h3>
+    <h3 align="center">User Instructions</h3>
     <br/>
 
     <div class="row">
