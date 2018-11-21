@@ -2383,3 +2383,212 @@
 [DEBUG] 2018-11-19 21:41:19.907 [http-nio-8080-exec-4] GenericDao - Searching for user with eventName = 
 [INFO ] 2018-11-19 21:41:42.255 [http-nio-8080-exec-7] EventService - deleted the event
 [DEBUG] 2018-11-19 21:41:42.263 [http-nio-8080-exec-7] GenericDao - Searching for user with eventName = Test Event
+[INFO ] 2018-11-19 23:59:04.682 [http-nio-8080-exec-9] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-19 23:59:24.790 [http-nio-8080-exec-9] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-19 23:59:36.036 [http-nio-8080-exec-9] GenericDao - Searching for user with user = 3
+[DEBUG] 2018-11-19 23:59:36.281 [http-nio-8080-exec-9] EventService - periodLength: 18
+[DEBUG] 2018-11-19 23:59:36.282 [http-nio-8080-exec-9] EventService - upcomingEvent: 2019-04-01
+[DEBUG] 2018-11-19 23:59:36.282 [http-nio-8080-exec-9] EventService - periodLength: -18
+[DEBUG] 2018-11-19 23:59:36.282 [http-nio-8080-exec-9] EventService - upcomingEvent: 2019-06-07
+[DEBUG] 2018-11-19 23:59:36.283 [http-nio-8080-exec-9] EventService - string response: 
+{
+"eventName": "Dan's Wedding"
+"eventType": "annual"
+"eventDate": "2006-04-01"
+"timeUntil": "4 Months and 13 Days"
+"eventLength": "12 Years, 7 Months and 18 Days"
+"nextUpcomingEventDate": "2019-04-01"
+}
+{
+"eventName": "Keanan's Graduation"
+"eventType": "One Time"
+"eventDate": "2019-06-07"
+"timeUntil": "6 Months and 19 Days"
+"eventLength": "0 Years, -6 Months and -18 Days"
+"nextUpcomingEventDate": "2019-06-07"
+}
+
+[INFO ] 2018-11-20 00:07:18.729 [http-nio-8080-exec-4] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-20 00:07:35.625 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-20 00:07:38.331 [http-nio-8080-exec-4] GenericDao - Searching for user with user = 3
+[DEBUG] 2018-11-20 00:07:38.729 [http-nio-8080-exec-4] EventService - periodLength: 19
+[DEBUG] 2018-11-20 00:07:38.734 [http-nio-8080-exec-4] EventService - upcomingEvent: 2019-04-01
+[DEBUG] 2018-11-20 00:07:38.735 [http-nio-8080-exec-4] EventService - periodLength: -17
+[DEBUG] 2018-11-20 00:07:38.735 [http-nio-8080-exec-4] EventService - upcomingEvent: 2019-06-07
+[DEBUG] 2018-11-20 00:07:38.735 [http-nio-8080-exec-4] EventService - string response: 
+{
+"eventName": "Dan's Wedding"
+"eventType": "Annual"
+"eventDate": "2006-04-01"
+"timeUntil": "4 Months and 12 Days"
+"eventLength": "12 Years, 7 Months and 19 Days"
+"nextUpcomingEventDate": "2019-04-01"
+}
+{
+"eventName": "Keanan's Graduation"
+"eventType": "One Time"
+"eventDate": "2019-06-07"
+"timeUntil": "6 Months and 18 Days"
+"eventLength": "0 Years, -6 Months and -17 Days"
+"nextUpcomingEventDate": "2019-06-07"
+}
+
+[INFO ] 2018-11-20 17:11:56.683 [http-nio-8080-exec-6] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-20 17:11:59.074 [http-nio-8080-exec-6] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-20 17:11:59.327 [http-nio-8080-exec-6] GenericDao - Searching for user with user = 3
+[DEBUG] 2018-11-20 17:11:59.367 [http-nio-8080-exec-6] EventService - periodLength: 19
+[DEBUG] 2018-11-20 17:11:59.367 [http-nio-8080-exec-6] EventService - upcomingEvent: 2019-04-01
+[DEBUG] 2018-11-20 17:11:59.367 [http-nio-8080-exec-6] EventService - periodLength: -17
+[DEBUG] 2018-11-20 17:11:59.367 [http-nio-8080-exec-6] EventService - upcomingEvent: 2019-06-07
+[DEBUG] 2018-11-20 17:11:59.367 [http-nio-8080-exec-6] EventService - string response: 
+{
+"eventName": "Dan's Wedding"
+"eventType": "Annual"
+"eventDate": "2006-04-01"
+"timeUntil": "4 Months and 12 Days"
+"eventLength": "12 Years, 7 Months and 19 Days"
+"nextUpcomingEventDate": "2019-04-01"
+}
+{
+"eventName": "Keanan's Graduation"
+"eventType": "One Time"
+"eventDate": "2019-06-07"
+"timeUntil": "6 Months and 18 Days"
+"eventLength": "0 Years, -6 Months and -17 Days"
+"nextUpcomingEventDate": "2019-06-07"
+}
+
+[INFO ] 2018-11-20 17:21:03.124 [http-nio-8080-exec-4] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-20 17:21:05.034 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-20 17:21:05.300 [http-nio-8080-exec-4] GenericDao - Searching for user with user = 3
+[DEBUG] 2018-11-20 17:21:05.332 [http-nio-8080-exec-4] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 17:21:05.332 [http-nio-8080-exec-4] EventService - periodLength: 2006-04-01
+[DEBUG] 2018-11-20 17:21:05.332 [http-nio-8080-exec-4] EventService - periodLength: 19
+[DEBUG] 2018-11-20 17:21:05.332 [http-nio-8080-exec-4] EventService - upcomingEvent: 2019-04-01
+[DEBUG] 2018-11-20 17:21:05.332 [http-nio-8080-exec-4] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 17:21:05.332 [http-nio-8080-exec-4] EventService - periodLength: 2019-06-07
+[DEBUG] 2018-11-20 17:21:05.332 [http-nio-8080-exec-4] EventService - periodLength: 18
+[DEBUG] 2018-11-20 17:21:05.332 [http-nio-8080-exec-4] EventService - upcomingEvent: 2019-06-07
+[DEBUG] 2018-11-20 17:21:05.332 [http-nio-8080-exec-4] EventService - string response: 
+{
+"eventName": "Dan's Wedding"
+"eventType": "Annual"
+"eventDate": "2006-04-01"
+"timeUntil": "4 Months and 12 Days"
+"eventLength": "12 Years, 7 Months and 19 Days"
+"nextUpcomingEventDate": "2019-04-01"
+}
+{
+"eventName": "Keanan's Graduation"
+"eventType": "One Time"
+"eventDate": "2019-06-07"
+"timeUntil": "6 Months and 18 Days"
+"eventLength": "0 Years, 6 Months and 18 Days"
+"nextUpcomingEventDate": "2019-06-07"
+}
+
+[INFO ] 2018-11-20 17:27:55.674 [http-nio-8080-exec-4] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-20 17:27:57.878 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-20 17:27:58.145 [http-nio-8080-exec-4] GenericDao - Searching for user with user = 3
+[DEBUG] 2018-11-20 17:27:58.165 [http-nio-8080-exec-4] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 17:27:58.166 [http-nio-8080-exec-4] EventService - periodLength: 2006-04-01
+[DEBUG] 2018-11-20 17:27:58.166 [http-nio-8080-exec-4] EventService - periodLength: 19
+[DEBUG] 2018-11-20 17:27:58.166 [http-nio-8080-exec-4] EventService - upcomingEvent: 2019-04-01
+[DEBUG] 2018-11-20 17:27:58.166 [http-nio-8080-exec-4] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 17:27:58.166 [http-nio-8080-exec-4] EventService - periodLength: 2019-06-07
+[DEBUG] 2018-11-20 17:27:58.166 [http-nio-8080-exec-4] EventService - periodLength: 18
+[DEBUG] 2018-11-20 17:27:58.166 [http-nio-8080-exec-4] EventService - upcomingEvent: 2019-06-07
+[DEBUG] 2018-11-20 17:27:58.166 [http-nio-8080-exec-4] EventService - string response: 
+{
+"eventName": "Dan's Wedding"
+"eventType": "Annual"
+"eventDate": "2006-04-01"
+"timeUntil": "4 Months and 12 Days"
+"eventLength": "12 Years, 7 Months and 19 Days"
+"nextUpcomingEventDate": "2019-04-01"
+}
+{
+"eventName": "Keanan's Graduation"
+"eventType": "One Time"
+"eventDate": "2019-06-07"
+"timeUntil": "6 Months and 18 Days"
+"eventLength": "0 Years, 6 Months and 18 Days"
+"nextUpcomingEventDate": "2019-06-07"
+}
+
+[INFO ] 2018-11-20 17:42:33.880 [http-nio-8080-exec-5] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-20 17:42:35.936 [http-nio-8080-exec-5] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-20 17:42:36.157 [http-nio-8080-exec-5] GenericDao - Searching for user with user = 3
+[DEBUG] 2018-11-20 17:42:36.186 [http-nio-8080-exec-5] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 17:42:36.186 [http-nio-8080-exec-5] EventService - periodLength: 2006-04-01
+[DEBUG] 2018-11-20 17:42:36.186 [http-nio-8080-exec-5] EventService - periodLength: 19
+[DEBUG] 2018-11-20 17:42:36.186 [http-nio-8080-exec-5] EventService - upcomingEvent: 2019-04-01
+[DEBUG] 2018-11-20 17:42:36.186 [http-nio-8080-exec-5] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 17:42:36.186 [http-nio-8080-exec-5] EventService - periodLength: 2019-06-07
+[DEBUG] 2018-11-20 17:42:36.186 [http-nio-8080-exec-5] EventService - periodLength: 18
+[DEBUG] 2018-11-20 17:42:36.186 [http-nio-8080-exec-5] EventService - upcomingEvent: 2019-06-07
+[INFO ] 2018-11-20 17:42:36.186 [http-nio-8080-exec-5] EventService - starting the try block
+[DEBUG] 2018-11-20 17:42:36.372 [http-nio-8080-exec-5] EventService - in the try block and added parsed json for all EVENTS
+[DEBUG] 2018-11-20 17:42:36.372 [http-nio-8080-exec-5] EventService - string response: 
+
+[INFO ] 2018-11-20 17:50:26.568 [http-nio-8080-exec-3] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-20 17:50:28.473 [http-nio-8080-exec-3] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-20 17:50:28.721 [http-nio-8080-exec-3] GenericDao - Searching for user with user = 3
+[DEBUG] 2018-11-20 17:50:28.749 [http-nio-8080-exec-3] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 17:50:28.749 [http-nio-8080-exec-3] EventService - periodLength: 2006-04-01
+[DEBUG] 2018-11-20 17:50:28.749 [http-nio-8080-exec-3] EventService - periodLength: 19
+[DEBUG] 2018-11-20 17:50:28.749 [http-nio-8080-exec-3] EventService - upcomingEvent: 2019-04-01
+[DEBUG] 2018-11-20 17:50:28.749 [http-nio-8080-exec-3] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 17:50:28.750 [http-nio-8080-exec-3] EventService - periodLength: 2019-06-07
+[DEBUG] 2018-11-20 17:50:28.750 [http-nio-8080-exec-3] EventService - periodLength: 18
+[DEBUG] 2018-11-20 17:50:28.750 [http-nio-8080-exec-3] EventService - upcomingEvent: 2019-06-07
+[DEBUG] 2018-11-20 17:50:28.750 [http-nio-8080-exec-3] EventService - string response: 
+{
+"eventName": "Dan's Wedding"
+"eventType": "Annual"
+"eventDate": "2006-04-01"
+"timeUntil": "4 Months and 12 Days"
+"eventLength": "12 Years, 7 Months and 19 Days"
+"nextUpcomingEventDate": "2019-04-01"
+}
+{
+"eventName": "Keanan's Graduation"
+"eventType": "One Time"
+"eventDate": "2019-06-07"
+"timeUntil": "6 Months and 18 Days"
+"eventLength": "0 Years, 6 Months and 18 Days"
+"nextUpcomingEventDate": "2019-06-07"
+}
+
+[INFO ] 2018-11-20 18:02:09.353 [http-nio-8080-exec-10] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-20 18:02:11.309 [http-nio-8080-exec-10] GenericDao - Searching for user with userName = danMiller
+[DEBUG] 2018-11-20 18:02:11.584 [http-nio-8080-exec-10] GenericDao - Searching for user with user = 3
+[DEBUG] 2018-11-20 18:02:11.603 [http-nio-8080-exec-10] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 18:02:11.603 [http-nio-8080-exec-10] EventService - periodLength: 2006-04-01
+[DEBUG] 2018-11-20 18:02:11.603 [http-nio-8080-exec-10] EventService - periodLength: 19
+[DEBUG] 2018-11-20 18:02:11.603 [http-nio-8080-exec-10] EventService - upcomingEvent: 2019-04-01
+[DEBUG] 2018-11-20 18:02:11.603 [http-nio-8080-exec-10] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 18:02:11.603 [http-nio-8080-exec-10] EventService - periodLength: 2019-06-07
+[DEBUG] 2018-11-20 18:02:11.603 [http-nio-8080-exec-10] EventService - periodLength: 18
+[DEBUG] 2018-11-20 18:02:11.603 [http-nio-8080-exec-10] EventService - upcomingEvent: 2019-06-07
+[DEBUG] 2018-11-20 18:02:11.603 [http-nio-8080-exec-10] EventService - string response: 
+{
+"eventName": "Dan's Wedding"
+"eventType": "Annual"
+"eventDate": "2006-04-01"
+"timeUntil": "4 Months and 12 Days"
+"eventLength": "12 Years, 7 Months and 19 Days"
+"nextUpcomingEventDate": "2019-04-01"
+}
+{
+"eventName": "Keanan's Graduation"
+"eventType": "One Time"
+"eventDate": "2019-06-07"
+"timeUntil": "6 Months and 18 Days"
+"eventLength": "0 Years, 6 Months and 18 Days"
+"nextUpcomingEventDate": "2019-06-07"
+}
+
+[ERROR] 2018-11-20 18:12:38.377 [main] Database - com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown database 'test_dateTracker'
+[ERROR] 2018-11-20 18:17:40.216 [main] Database - java.sql.SQLException: Can not issue empty query.
+[ERROR] 2018-11-20 18:21:24.524 [main] Database - java.sql.SQLException: Can not issue empty query.

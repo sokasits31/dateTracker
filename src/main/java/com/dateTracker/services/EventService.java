@@ -14,6 +14,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 
 @Path("/events")
@@ -21,10 +22,10 @@ public class EventService {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
-    @POST
-    @Path("/searchbyName")
+    @GET
+    @Path("/searchbyName/{userName}")
     public Response getAllEvents(
-            @FormParam("userName") String userName) throws JsonProcessingException {
+            @PathParam("userName") String userName) {
 
         logger.info("starting the getAllEvents service");
 
@@ -40,17 +41,27 @@ public class EventService {
         User user = userList.get(0);
 
         GenericDao eventDao = new GenericDao(Event.class);
-        List<Event> allEvents = eventDao.getByPropertyEqualint("user", user.getId());
+        List <Event> allEvents = eventDao.getByPropertyEqualint("user", user.getId());
 
         if (!allEvents.isEmpty()) {
 
             for (Event e:allEvents) {
 
-                // Determine length of event
-                periodLength = Period.between(e.getEventDate(), LocalDate.now());
-                logger.debug("periodLength: " + periodLength.getDays());
+                if (LocalDate.now().isBefore(e.getEventDate())) {
+                    // Determine length of event
+                    periodLength = Period.between(LocalDate.now(), e.getEventDate());
+                    logger.debug("periodLength: " + LocalDate.now());
+                    logger.debug("periodLength: " + e.getEventDate());
+                    logger.debug("periodLength: " + periodLength.getDays());
+                } else {
+                    // Determine length of event
+                    periodLength = Period.between(e.getEventDate(), LocalDate.now());
+                    logger.debug("periodLength: " + LocalDate.now());
+                    logger.debug("periodLength: " + e.getEventDate());
+                    logger.debug("periodLength: " + periodLength.getDays());
+                }
 
-                if (e.getEventType().equals("annual")) {
+                if (e.getEventType().toLowerCase().equals("annual")) {
                     // Determine next upcoming event
                     upcomingEvent = e.getEventDate().plusYears(periodLength.getYears() + 1);
                     daysUntil = Period.between(LocalDate.now(), upcomingEvent);
@@ -59,8 +70,7 @@ public class EventService {
                     daysUntil = Period.between(LocalDate.now(), e.getEventDate());
                 }
 
-                String value = "birth";   // would be are PARAM in value from screen
-                String response = "";
+                //String value = "birth";   // would be are PARAM in value from screen
 
                 logger.debug("upcomingEvent: " + upcomingEvent);
 
@@ -82,18 +92,6 @@ public class EventService {
                     JSONresponse += "}\n";
                 }
             }
-
-            /**
-            try {
-                logger.info("starting the try block");
-                ObjectMapper mapper = new ObjectMapper();
-                response = mapper.writeValueAsString(e);
-                logger.debug("in the try block and added parsed json for all EVENTS");
-            } catch (IOException ioException) {
-                logger.error(ioException.getMessage());
-                logger.info(ioException.getMessage());
-            }
-             */
 
             logger.debug("string response: " + JSONresponse);
             return Response.status(200).entity("List of requested events : <br>" + JSONresponse).build();
