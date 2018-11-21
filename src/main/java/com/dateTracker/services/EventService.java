@@ -21,10 +21,10 @@ public class EventService {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
-    @POST
-    @Path("/searchbyName")
+    @GET
+    @Path("/searchbyName/{userName}")
     public Response getAllEvents(
-            @FormParam("userName") String userName) throws JsonProcessingException {
+        @PathParam("userName") String userName) throws JsonProcessingException {
 
         logger.info("starting the getAllEvents service");
 
