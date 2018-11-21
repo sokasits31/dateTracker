@@ -18,7 +18,7 @@
     <form action="/dateTracker/services/events/add" method="post">
         <div class="form-group">
             <label>Username *</label>
-            <input type="text" class="form-control" id="userName" name="userName" maxlength="10" required Title="Username is required."/>
+            <input type="text" class="form-control" id="userName" name="userName" maxlength="40" required Title="Username is required."/>
         </div>
 
         <div class="form-group">
