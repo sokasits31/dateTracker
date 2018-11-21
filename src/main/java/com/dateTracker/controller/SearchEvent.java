@@ -1,5 +1,8 @@
 package com.dateTracker.controller;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -12,15 +15,24 @@ import java.io.IOException;
  * A simple servlet to welcome the user.
  */
 
+
+
 @WebServlet(
-        urlPatterns = {"/searchEvent"}
+        urlPatterns = {"/searchbyName"}
+
 )
 
 public class SearchEvent extends HttpServlet {
+
+
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         //forward to results.jsp page
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
-        dispatcher.forward(req, resp);
+        System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
+        req.getParameter("userName");
+        resp.sendRedirect(" http://localhost:8080/dateTracker/services/events/searchbyName/steveSokasits");
+                //+ req.getParameter("userName"));
+        //dispatcher.forward(req, resp);
     }
 }
