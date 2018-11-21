@@ -1,42 +1,36 @@
 package com.dateTracker.controller;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.ws.rs.client.Client;
-import javax.ws.rs.client.ClientBuilder;
-import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.MediaType;
 import java.io.IOException;
 
 /**
- *
+ * This servlet will redirect the page request to an absolute url address
+ * 
  */
 
 @WebServlet(
-        urlPatterns = {"/searchEvent"}
+        urlPatterns = {"/searchbyName"}
+
 )
 
 public class SearchEvent extends HttpServlet {
+
+    private final Logger logger = LogManager.getLogger(this.getClass());
+
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        logger.info("starting the doGet method in SearchEvent");
 
-        String name = req.getParameter("userName");
-        String event = req.getParameter("eventName");
+        String userName = req.getParameter("userName");
+        String url = "http://localhost:8080/dateTracker/services/events/searchbyName/" + userName;
+        resp.sendRedirect(url);
 
-        Client client = ClientBuilder.newClient();
-
-        WebTarget target = client.target("http://localhost:8080/dateTracker/services/events/searchbyName/" + name);
-
-        String response = target.request(MediaType.APPLICATION_JSON).get(String.class);
-
-        //forward to results.jsp page
-        //RequestDispatcher dispatcher = req.getRequestDispatcher("http://localhost:8080/dateTracker/services/events/searchbyName/" + event);
-        //dispatcher.forward(req, resp);
     }
 }

@@ -2,18 +2,23 @@ package com.dateTracker.persistence;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.hibernate.Criteria;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
+import org.hibernate.criterion.Order;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
+import java.time.LocalDate;
 import java.util.List;
+import java.util.Map;
 
 /**
  * A generic DAO somewhat inspired by http://rodrigouchoa.wordpress.com
  *
+ * @param <T> the type parameter
  */
 public class GenericDao<T> {
 
@@ -50,8 +55,10 @@ public class GenericDao<T> {
 
     /**
      * Gets an entity by id
-     * @param id entity id to search by
-     * @return entity
+     *
+     * @param <T> the type parameter
+     * @param id  entity id to search by
+     * @return entity by id
      */
     public <T> T getById(int id) {
         Session session = getSession();
@@ -59,6 +66,7 @@ public class GenericDao<T> {
         session.close();
         return entity;
     }
+
 
     /**
      * Deletes the entity.
@@ -126,6 +134,13 @@ public class GenericDao<T> {
     }
 
 
+    /**
+     * Gets by property equalint.
+     *
+     * @param propertyName the property name
+     * @param value        the value
+     * @return the by property equalint
+     */
     public List<T> getByPropertyEqualint(String propertyName, int value) {
         Session session = getSession();
 
@@ -144,6 +159,10 @@ public class GenericDao<T> {
     /**
      * Get user by property (like)
      * sample usage: getByPropertyLike("lastname", "C")
+     *
+     * @param propertyName the property name
+     * @param value        the value
+     * @return the by property like
      */
     public List<T> getByPropertyLike(String propertyName, String value) {
         Session session = getSession();
@@ -161,6 +180,7 @@ public class GenericDao<T> {
         session.close();
         return list;
     }
+
 
     /**
      *  Returns an open session for the SessionFactory

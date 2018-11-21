@@ -121,6 +121,5 @@ public class DisplayEvent {
                     .entity("Added successfuly!<br> Id: " + id + "<br> Name: " + name + "<br> + Date: " + date + "<br> + Submit: " + submit)
                     .build();
     }
-
 }
 

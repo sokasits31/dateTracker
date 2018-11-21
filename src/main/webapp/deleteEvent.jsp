@@ -16,10 +16,22 @@
 <hr>
 
     <form action="/dateTracker/services/events/delete" method="post">
+<<<<<<< HEAD
     <div class="form-group">
         <label>Username *</label>
         <input type="text" class="form-control" id="userName" name="userName" maxlength="10" required Title="Username is required."/>
     </div>
+=======
+<div class="form-group">
+<label>Username *</label>
+<input type="text" class="form-control" id="userName" name="userName" maxlength="10" required Title="Username is required."/>
+</div>
+
+<div class="form-group">
+<label>Event Name *</label>
+<input type="text" class="form-control" id="eventName" name="eventName" maxlength="100" />
+</div>
+>>>>>>> master
 
 </div>
 

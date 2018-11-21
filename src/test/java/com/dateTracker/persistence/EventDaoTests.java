@@ -22,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
 
-class UserDaoTests {
+class EventDaoTests {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
@@ -38,7 +38,7 @@ class UserDaoTests {
 
         com.dateTracker.util.Database database = com.dateTracker.util.Database.getInstance();
         database.runSQL("loadTestDataBase.sql");
-        genericDao = new GenericDao(User.class);
+        genericDao = new GenericDao(Event.class);
 
     }
 
@@ -46,9 +46,9 @@ class UserDaoTests {
      * Verify that we we can get all rows
      */
     @Test
-    void getAllUsersSuccess() {
-        List<User> tests = genericDao.getAll();
-        assertEquals(3, tests.size());
+    void getAllEventsSuccess() {
+        List<Event> tests = genericDao.getAll();
+        assertEquals(6, tests.size());
 
     }
 
@@ -59,10 +59,10 @@ class UserDaoTests {
      */
     @Test
     void getByIdSuccess() {
-        
-        User retreivedUser = (User)genericDao.getById(2);
+
+        Event retreivedUser = (Event)genericDao.getById(2);
         assertEquals(2,retreivedUser.getId());
-        assertEquals("steveSokasits", retreivedUser.getUserName());
+        assertEquals("birthday", retreivedUser.getEventName());
     }
 
     /**
@@ -71,14 +71,14 @@ class UserDaoTests {
     @Test
     void insertSuccess() {
 
-        User newUser = new User("joeWilliams");
+        Event newEvent = new Event();
 
-        int id = genericDao.insert(newUser);
+        int id = genericDao.insert(newEvent);
         assertNotEquals(0,id);
 
         User insertedUser = (User) genericDao.getById(id);
 
-        assertEquals(newUser,insertedUser);
+        assertEquals(newEvent,insertedUser);
         assertEquals("joeWilliams", insertedUser.getUserName());
     }
 
@@ -198,11 +198,11 @@ class UserDaoTests {
                 JSONresponse += "\"eventType\": \"" + e.getEventType() + "\"\n";
                 JSONresponse += "\"eventDate\": \"" + e.getEventDate() + "\"\n";
                 JSONresponse += "\"timeUntil\": \"" + daysUntil.getMonths() + " Months and "
-                                                    + daysUntil.getDays() + " Days" + "\"\n";
+                        + daysUntil.getDays() + " Days" + "\"\n";
 
                 JSONresponse += "\"eventLenght\": \"" + periodLength.getYears() + " Years, "
-                                                      + periodLength.getMonths() + " Months and "
-                                                      + periodLength.getDays() + " Days" + "\"\n";
+                        + periodLength.getMonths() + " Months and "
+                        + periodLength.getDays() + " Days" + "\"\n";
                 JSONresponse += "\"nextUpcomingEventDate\": \"" + upcomingEvent + "\"\n";
 
                 JSONresponse += "}\n";
