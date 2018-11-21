@@ -38,7 +38,7 @@ class EventDaoTests {
 
         com.dateTracker.util.Database database = com.dateTracker.util.Database.getInstance();
         database.runSQL("loadTestDataBase.sql");
-        genericDao = new GenericDao(User.class);
+        genericDao = new GenericDao(Event.class);
 
     }
 
@@ -46,9 +46,9 @@ class EventDaoTests {
      * Verify that we we can get all rows
      */
     @Test
-    void getAllUsersSuccess() {
-        List<User> tests = genericDao.getAll();
-        assertEquals(3, tests.size());
+    void getAllEventsSuccess() {
+        List<Event> tests = genericDao.getAll();
+        assertEquals(6, tests.size());
 
     }
 
@@ -60,9 +60,9 @@ class EventDaoTests {
     @Test
     void getByIdSuccess() {
 
-        User retreivedUser = (User)genericDao.getById(2);
+        Event retreivedUser = (Event)genericDao.getById(2);
         assertEquals(2,retreivedUser.getId());
-        assertEquals("steveSokasits", retreivedUser.getUserName());
+        assertEquals("birthday", retreivedUser.getEventName());
     }
 
     /**

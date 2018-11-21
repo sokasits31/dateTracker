@@ -2383,6 +2383,7 @@
 [DEBUG] 2018-11-19 21:41:19.907 [http-nio-8080-exec-4] GenericDao - Searching for user with eventName = 
 [INFO ] 2018-11-19 21:41:42.255 [http-nio-8080-exec-7] EventService - deleted the event
 [DEBUG] 2018-11-19 21:41:42.263 [http-nio-8080-exec-7] GenericDao - Searching for user with eventName = Test Event
+<<<<<<< HEAD
 [DEBUG] 2018-11-20 17:26:00.966 [http-nio-8080-exec-4] EventService - the new event date is 2020-02-02
 [DEBUG] 2018-11-20 17:26:00.978 [http-nio-8080-exec-4] EventService - userName = DanMiller
 [DEBUG] 2018-11-20 17:26:05.586 [http-nio-8080-exec-4] GenericDao - Searching for user with userName = DanMiller
@@ -2469,4 +2470,3 @@
 "eventLength": "0 Years, 0 Months and -9 Days"
 "nextUpcomingEventDate": "2018-11-29"
 }
-
