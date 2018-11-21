@@ -2615,3 +2615,32 @@
 "nextUpcomingEventDate": "2019-09-06"
 }
 
+[INFO ] 2018-11-20 22:34:01.682 [http-nio-8080-exec-8] EventService - starting the getAllEvents service
+[DEBUG] 2018-11-20 22:34:12.326 [http-nio-8080-exec-8] GenericDao - Searching for user with userName = steveSokasits
+[DEBUG] 2018-11-20 22:34:14.607 [http-nio-8080-exec-8] GenericDao - Searching for user with user = 2
+[DEBUG] 2018-11-20 22:34:14.915 [http-nio-8080-exec-8] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 22:34:14.934 [http-nio-8080-exec-8] EventService - periodLength: 1972-09-06
+[DEBUG] 2018-11-20 22:34:14.934 [http-nio-8080-exec-8] EventService - periodLength: 14
+[DEBUG] 2018-11-20 22:34:14.938 [http-nio-8080-exec-8] EventService - upcomingEvent: 2019-09-06
+[DEBUG] 2018-11-20 22:34:14.943 [http-nio-8080-exec-8] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 22:34:14.943 [http-nio-8080-exec-8] EventService - periodLength: 2008-10-21
+[DEBUG] 2018-11-20 22:34:14.943 [http-nio-8080-exec-8] EventService - periodLength: 30
+[DEBUG] 2018-11-20 22:34:14.943 [http-nio-8080-exec-8] EventService - upcomingEvent: 2008-10-21
+[DEBUG] 2018-11-20 22:34:14.943 [http-nio-8080-exec-8] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 22:34:14.943 [http-nio-8080-exec-8] EventService - periodLength: 2010-10-16
+[DEBUG] 2018-11-20 22:34:14.943 [http-nio-8080-exec-8] EventService - periodLength: 4
+[DEBUG] 2018-11-20 22:34:14.947 [http-nio-8080-exec-8] EventService - upcomingEvent: 2010-10-16
+[DEBUG] 2018-11-20 22:34:14.947 [http-nio-8080-exec-8] EventService - periodLength: 2018-11-20
+[DEBUG] 2018-11-20 22:34:14.947 [http-nio-8080-exec-8] EventService - periodLength: 1977-04-22
+[DEBUG] 2018-11-20 22:34:14.947 [http-nio-8080-exec-8] EventService - periodLength: 29
+[DEBUG] 2018-11-20 22:34:14.947 [http-nio-8080-exec-8] EventService - upcomingEvent: 1977-04-22
+[DEBUG] 2018-11-20 22:34:14.947 [http-nio-8080-exec-8] EventService - string response: 
+{
+"eventName": "Steve's Birthday"
+"eventType": "annual"
+"eventDate": "1972-09-06"
+"timeUntil": "9 Months and 17 Days"
+"eventLength": "46 Years, 2 Months and 14 Days"
+"nextUpcomingEventDate": "2019-09-06"
+}
+
