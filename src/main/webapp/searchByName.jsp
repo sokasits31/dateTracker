@@ -15,7 +15,7 @@
 <h3>Welcome to the Search Page!</h3>
 <hr>
 
-<form action="/dateTracker/services/events/searchbyName" method="POST">
+<form action="/dateTracker/services/events/searchbyName" class="form-inline" method="POST">
 <div class="form-group">
     <label for="userName">User name: </label>
     <input type="text" class="form-control" id="userName" name="userName" aria-describedby="searchUserName" required>

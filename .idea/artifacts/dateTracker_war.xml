@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="dateTracker:war">
     <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="indieProject.war">
+    <root id="archive" name="dateTracker.war">
       <element id="artifact" artifact-name="dateTracker:war exploded" />
     </root>
   </artifact>
