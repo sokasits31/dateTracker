@@ -31,8 +31,7 @@ public class SearchEvent extends HttpServlet {
         //forward to results.jsp page
         System.out.println("%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%");
         req.getParameter("userName");
-        resp.sendRedirect(" http://localhost:8080/dateTracker/services/events/searchbyName/steveSokasits");
-                //+ req.getParameter("userName"));
+        resp.sendRedirect(" http://localhost:8080/dateTracker/services/events/searchbyName/" + req.getParameter("userName"));
         //dispatcher.forward(req, resp);
     }
 }

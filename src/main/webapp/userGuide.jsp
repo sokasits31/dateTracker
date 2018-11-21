@@ -19,12 +19,11 @@
         <div class="col-md-3">
             <h5>Access our Services:</h5>
             <ul>
-                <li><a href="searchAll.jsp">Search All</a></li>
-                <li><a href="searchEvent.jsp">Search Events</a></li>
+
                 <li><a href="searchByName.jsp">Search By Name</a></li>
                 <li><a href="addEvent.jsp">Add Event</a></li>
                 <li><a href="deleteEvent.jsp">Delete Event</a></li>
-                <li><a href="updateEvent.jsp">Update Event</a></li>
+
             </ul>
             <h5>Other:</h5>
             <ul>
