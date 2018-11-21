@@ -64,6 +64,7 @@
     </div>
 </div>
 
-<!-- Content here -->
+<footer class="container-fluid text-center">
+</footer>
 </body>
 </html>

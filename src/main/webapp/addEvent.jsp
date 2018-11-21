@@ -55,6 +55,7 @@
         <figcaption class="figure-caption"></figcaption>
     </figure>
 </div>
-
+<footer class="container-fluid text-center">
+</footer>
 </body>
 </html>
