@@ -19,12 +19,9 @@
         <div class="col-md-3">
             <h5>Access our Services:</h5>
             <ul>
-                <li><a href="searchAll.jsp">Search All</a></li>
-                <li><a href="searchEvent.jsp">Search Events</a></li>
                 <li><a href="searchByName.jsp">Search By Name</a></li>
                 <li><a href="addEvent.jsp">Add Event</a></li>
                 <li><a href="deleteEvent.jsp">Delete Event</a></li>
-                <li><a href="updateEvent.jsp">Update Event</a></li>
             </ul>
             <h5>Other:</h5>
             <ul>
@@ -56,15 +53,9 @@
                         <li>Event Type ("annual" or "one time")</li>
                     </ul>
                 <dt><b>Step 3</b></dt>
-                <dd>Request your data.  To do this, use can use one of the following services:
-                    <ul>
-                        <li>Request by userName - This request will return a list of all upcoming events.
-                            If an event is "annual" service will provide event date for the upcoming year (i.e.
-                            request date + 365 days)</li>
-                        <li>Request by userName and event name - This request will return same as "Request by
-                            userName", but will only return events that match the value enter in the event
-                            name field or parameter. </li>
-                    </ul>
+                <dd>Request your data.  To do this, provide your user name in HTTP path.  This request
+                    will return a list of all upcoming events.  If an event is "annual" service will provide
+                    event date for the upcoming year (i.e. look out request date + 365 days)
             </dl>
 
             </p>
@@ -73,6 +64,7 @@
     </div>
 </div>
 
-<!-- Content here -->
+<footer class="container-fluid text-center">
+</footer>
 </body>
 </html>
