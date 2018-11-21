@@ -53,12 +53,21 @@
                     <td>dateTracker/services/searchbyName/{userName}</td>
                     <td>Where {userName} is your assigned User Name form www.dateTracker.com</td>
                 </tr>
+<<<<<<< HEAD
+            </table>
+            <br>
+            <b>Examples</b>
+            HTTP Request: <pre style="color: silver; background: black;">http://localhost:8080/dateTracker/services/events/searchbyName/steveSmith</pre>
+            <br>
+            JSON Response:  <pre style="color: silver; background: black;">
+=======
                 </table>
                 <br>
                 <b>Examples</b>
                 HTTP Request: <pre style="color: silver; background: black;">http://localhost:8080/dateTracker/services/events/searchbyName/steveSmith</pre>
                 <br>
                 JSON Response:  <pre style="color: silver; background: black;">
+>>>>>>> master
                 { <br />
                   "eventName": "Steve's Birthday"  <br />
                   "eventType": "annual"  <br />
@@ -67,16 +76,28 @@
                   "eventLength": "46 Years, 2 Months and 14 Days"    <br />
                   "nextUpcomingEventDate": "2019-09-06"  <br />
                 } </pre>
+<<<<<<< HEAD
+            Notes:
+            <ul>
+                <li>Only future events(request date >= current date) will be displayed</li>
+                <li>For annual events, request will display next event for the upcoming year.</li>
+            </ul>
+=======
                 Notes:
                 <ul>
                     <li>Only future events(request date >= current date) will be displayed</li>
                     <li>For annual events, request will display next event for the upcoming year.</li>
                 </ul>
+>>>>>>> master
             </p>
             <hr>
             <b>Remove a event</b>
             <p>
+<<<<<<< HEAD
+                To remove an event, please use our "Delete Event" form.  One form enter the following:
+=======
             To remove an event, please use our "Delete Event" form.  One form enter the following:
+>>>>>>> master
             <ul>
                 <li>Assigned userName</li>
                 <li>Exact text of event you want to remove</li>
@@ -85,7 +106,11 @@
             <hr>
             <b>Add an event</b>
             <p>
+<<<<<<< HEAD
+                To add an event, pleae use our "Add Event" form.  On form enter the following info:
+=======
             To add an event, pleae use our "Add Event" form.  On form enter the following info:
+>>>>>>> master
             <ul>
                 <li>Assigned userName</li>
                 <li>Event Name</li>

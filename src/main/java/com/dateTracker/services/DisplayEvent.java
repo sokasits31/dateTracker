@@ -16,7 +16,7 @@ import java.util.List;
 
 /**
  * This class is the Rest Service that has endpoints to get all events, get events by username,
- * get movies based on a keyword(s) in the event name, add an event or delete an event
+ * based on a keyword(s) in the event name, add an event or delete an event
  */
 
 @Path("/events")
@@ -37,7 +37,13 @@ public class DisplayEvent {
         if (!eventsList.isEmpty()) {
             try {
                 logger.info("starting the try block");
+
+                //Example of serialization of Java Object into JSON using the writeValue method of ObjectMapper class:
                 ObjectMapper mapper = new ObjectMapper();
+                /*
+                The methods writeValueAsString and writeValueAsBytes of ObjectMapper class generates a JSON from a
+                Java object and returns the generated JSON as a string or as a byte array:
+                 */
                 stringResponse = mapper.writeValueAsString(eventsList);
                 logger.debug("in the try block and added parsed json for all EVENTS");
             } catch (IOException ioException) {
@@ -51,9 +57,10 @@ public class DisplayEvent {
         }
     }
 
-    @GET
-    @Path("/searchbyName/{userName}")
-    public Response getAllEvents(@PathParam("userName") String name) throws JsonProcessingException {
+    @POST
+    @Path("/searchbyName")
+    public Response getAllEvents(@FormParam("userName") String name) throws JsonProcessingException {
+
         GenericDao eventDAO = new GenericDao(Event.class);
         GenericDao userDAO = new GenericDao(User.class);
         logger.info(name);
@@ -93,6 +100,16 @@ public class DisplayEvent {
     }
 
     @POST
+    @Path("/delete")
+    public Response addUser(
+            @FormParam("userName") String id){
+
+        //Return message in plain text format
+        String deleteMsg = "Delete successful!";
+        return Response.status(200).entity(deleteMsg).build();
+    }
+
+    @POST
     @Path("/add")
     public Response addUser(
             @FormParam("userName") String id,
@@ -100,10 +117,9 @@ public class DisplayEvent {
             @FormParam("submit") String submit,
             @FormParam("eventDate") String date) {
 
-        return Response.status(200)
-                .entity(" Product added successfuly!<br> Id: "+id+"<br> Name: " + name +"<br> + Date: " + date +"<br> + Submit: " + submit)
-                .build();
+            return Response.status(200)
+                    .entity("Added successfuly!<br> Id: " + id + "<br> Name: " + name + "<br> + Date: " + date + "<br> + Submit: " + submit)
+                    .build();
     }
-
-
 }
+

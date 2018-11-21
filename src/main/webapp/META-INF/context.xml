@@ -1,4 +1,4 @@
-<Context docBase="indieProject" path="/indieProject" reloadable="true">
+<Context docBase="dateTracker" path="/dateTracker" reloadable="true">
     <Realm className="org.apache.catalina.realm.JDBCRealm"
            driverName="com.mysql.jdbc.Driver"
            connectionURL="jdbc:mysql://localhost:3306/indie?user=tomcat&amp;password=tomcat"

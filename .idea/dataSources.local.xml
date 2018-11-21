@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
+<<<<<<< HEAD
+    <data-source name="dateTracker" uuid="3c708636-a625-49e9-8e4f-52bce0bab702">
+      <database-info product="MySQL" version="5.7.23-log" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )" family="MYSQL" exact-version="5.7.23">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <user-name>root</user-name>
+      <introspection-schemas>*:@</introspection-schemas>
+=======
     <data-source name="dateTracker@localhost" uuid="959de051-dc07-493a-9339-8e63e7c52334">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
       <introspection-schemas>*:dateTracker</introspection-schemas>
     </data-source>
     <data-source name="test_dateTracker@localhost" uuid="6d149ca0-9432-44fd-9887-7f6782f8217f">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+>>>>>>> master
     </data-source>
   </component>
 </project>

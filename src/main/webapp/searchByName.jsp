@@ -6,13 +6,13 @@
 <body>
 <!-- As a heading -->
 <nav class="navbar justify-content-md-center navbar-dark bg-dark">
-    <span class="navbar-brand mb-0 h1">Date Tracker Website</span>
+    <span class="navbar-brand mb-0 h1"><a href="index.jsp">Date Tracker Website</a></span>
 </nav>
 
 <div class="container">
     <!-- Content here -->
     <hr>
-    <h3>Welcome to the Search Page!</h3>
+    <h3>Welcome to the Search Event Page!</h3>
     <hr>
 
     <form action="searchbyName" method="Get">
@@ -33,7 +33,6 @@
         <figcaption class="figure-caption"></figcaption>
     </figure>
 </div>
-
 
 </body>
 </html>

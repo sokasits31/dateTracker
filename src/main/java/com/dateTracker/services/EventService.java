@@ -17,11 +17,20 @@ import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * The type Event service.
+ */
 @Path("/events")
 public class EventService {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
 
+    /**
+     * Gets all events for the user
+     *
+     * @param userName the user name
+     * @return the all events for a particular user name
+     */
     @GET
     @Path("/searchbyName/{userName}")
     public Response getAllEvents(
@@ -102,12 +111,21 @@ public class EventService {
     }
 
 
+    /**
+     * Gets days event.
+     *
+     * @param userName  the user name
+     * @param eventType the event type
+     * @return the days event
+     * @throws JsonProcessingException the json processing exception
+     */
     @POST
     @Path("/search/event")
     public Response getDaysEvent(
             @FormParam("userName") String userName,
             @FormParam("eventType") String eventType) throws JsonProcessingException {
 
+        logger.info("starting the getDaysEvent service");
         LocalDate currentDate = LocalDate.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
         String eventDate = currentDate.plusDays(365).format(formatter);
@@ -120,15 +138,23 @@ public class EventService {
         GenericDao eventDao = new GenericDao(Event.class);
         List<Event> allEvents = eventDao.getByPropertyLike("eventType", eventType);
 
-
-
-
         return Response.status(200)
                 .entity("List of requested events : " + allEvents)
                 .build();
     }
 
 
+    /**
+     * Add event response.
+     *
+     * @param eventName the event name
+     * @param eventType the event type
+     * @param eventDate the event date
+     * @param userName  the user name
+     * @param submit    the submit
+     * @return the response
+     * @throws JsonProcessingException the json processing exception
+     */
     @POST
     @Path("/add")
     public Response addEvent(
@@ -137,6 +163,8 @@ public class EventService {
             @FormParam("eventDate") String eventDate,
             @FormParam("userName")  String userName,
             @FormParam("submit") String submit) throws JsonProcessingException {
+
+        logger.info("starting the addEvent service");
 
         //DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
         //LocalDate localDate = LocalDate.parse(eventDate, formatter);
@@ -158,7 +186,6 @@ public class EventService {
         GenericDao eventDao = new GenericDao(Event.class);
         eventDao.insert(event);
 
-
         if (event.getId() > 0) {
             return Response.status(200)
                     .entity(" Product added successfuly! <br> User Name: " + userName + "<br> Event Name: " + eventName + "<br> Event Type: " + eventType + "<br> Date: " + eventDate + "<br> Submit: " + submit)
@@ -171,6 +198,17 @@ public class EventService {
     }
 
 
+    /**
+     * Update event response.
+     *
+     * @param eventName the event name
+     * @param eventType the event type
+     * @param eventDate the event date
+     * @param userName  the user name
+     * @param submit    the submit
+     * @return the response
+     * @throws JsonProcessingException the json processing exception
+     */
     @POST
     @Path("/update")
     public Response updateEvent(
@@ -180,6 +218,7 @@ public class EventService {
             @FormParam("userName") String userName,
             @FormParam("submit") String submit) throws JsonProcessingException {
 
+        logger.info("starting the updateEvents service");
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-mm-dd");
         LocalDate localDate = LocalDate.parse(eventDate, formatter);
 
@@ -194,6 +233,15 @@ public class EventService {
     }
 
 
+    /**
+     * Delete event response.
+     *
+     * @param userName  the user name
+     * @param eventName the event name
+     * @param submit    the submit
+     * @return the response
+     * @throws JsonProcessingException the json processing exception
+     */
     @POST
     @Path("/delete")
     public Response deleteEvent(
@@ -201,7 +249,7 @@ public class EventService {
             @FormParam("eventName") String eventName,
             @FormParam("submit") String submit) throws JsonProcessingException {
 
-        logger.info("deleted the event");
+        logger.info("starting the deleteEvent service");
 
         GenericDao eventDao = new GenericDao(Event.class);
         List<Event> event = eventDao.getByPropertyEqual("eventName", eventName);
