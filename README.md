@@ -17,9 +17,10 @@ The returned list will include the event name, event type, and event date.
 - Log4j
 - JUnit Testing
 
-### Design
+### TimeLogs
 
-- 
+- Kia - https://github.com/sokasits31/dateTracker/wiki/Time-Log---Kia-Yang
+- Steve - https://github.com/sokasits31/dateTracker/wiki/Hour-Log
 
 ### Project Plan
 
