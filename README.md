@@ -21,6 +21,7 @@ The returned list will include the event name, event type, and event date.
 
 - Kia - https://github.com/sokasits31/dateTracker/wiki/Time-Log---Kia-Yang
 - Steve - https://github.com/sokasits31/dateTracker/wiki/Hour-Log
+- Dan - https://github.com/sokasits31/dateTracker/wiki/Time-Log-Dan-Miller
 
 ### Project Plan
 
